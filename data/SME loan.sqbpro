@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="SME loan.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser query pragmas" current="2"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="4406"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="sme_loan_portfolio_canada" custom_title="0" dock_id="2" table="4,25:mainsme_loan_portfolio_canada"/><dock_state state="000000ff00000000fd00000001000000020000077400000386fc0100000002fb000000160064006f0063006b00420072006f00770073006500310100000000000007740000000000000000fb000000160064006f0063006b00420072006f00770073006500320100000000ffffffff0000011800ffffff0000026f0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1*">-- headline: NPL rate and portfolio at risk, in dollars
+SELECT
+  ROUND(SUM(CASE WHEN dpd_bucket='NPL (&gt;90)' THEN principal_cad END)*100.0/SUM(principal_cad),1) AS npl_rate_pct,
+  ROUND(SUM(CASE WHEN days_past_due&gt;30 THEN principal_cad END)*100.0/SUM(principal_cad),1)        AS par30_pct,
+  ROUND(SUM(CASE WHEN days_past_due&gt;90 THEN principal_cad END)*100.0/SUM(principal_cad),1)        AS par90_pct,
+  ROUND(SUM(principal_cad)/1000000.0,1)                                                            AS book_size_millions
+FROM sme_loan_portfolio_canada;</sql><sql name="SQL 2*">-- NPL and PAR30 by sector
+SELECT sector,
+       ROUND(SUM(principal_cad)/1e6,1)                                                      AS book_m,
+       ROUND(SUM(CASE WHEN dpd_bucket='NPL (&gt;90)' THEN principal_cad END)*100.0/SUM(principal_cad),1) AS npl_pct,
+       ROUND(SUM(CASE WHEN days_past_due&gt;30 THEN principal_cad END)*100.0/SUM(principal_cad),1)        AS par30_pct
+FROM sme_loan_portfolio_canada
+GROUP BY sector
+ORDER BY npl_pct DESC;</sql><sql name="SQL 3*">-- NPL and PAR30 by province
+SELECT province,
+       ROUND(SUM(principal_cad)/1e6,1)                                                      AS book_m,
+       ROUND(SUM(CASE WHEN dpd_bucket='NPL (&gt;90)' THEN principal_cad END)*100.0/SUM(principal_cad),1) AS npl_pct,
+       ROUND(SUM(CASE WHEN days_past_due&gt;30 THEN principal_cad END)*100.0/SUM(principal_cad),1)        AS par30_pct
+FROM sme_loan_portfolio_canada
+GROUP BY province
+ORDER BY npl_pct DESC;</sql><sql name="SQL 4*">SELECT
+  CASE WHEN dpd_bucket='NPL (&gt;90)' THEN 'NPL' ELSE 'Performing/early' END        AS grp,
+  COUNT(*)                                                                        AS loans,
+  ROUND(AVG(collateral_coverage_ratio),2)                                         AS avg_coverage,
+  ROUND(AVG(CASE WHEN collateral_coverage_ratio&lt;1 THEN 1.0 ELSE 0 END)*100,0)     AS under_secured_pct,
+  ROUND(AVG(interest_rate_pct),1)                                                 AS avg_rate,
+  ROUND(AVG(principal_cad),0)                                                      AS avg_principal
+FROM sme_loan_portfolio_canada
+GROUP BY grp;</sql><sql name="SQL 5*">-- NPL rate by collateral type
+SELECT collateral_type,
+       ROUND(SUM(CASE WHEN dpd_bucket='NPL (&gt;90)' THEN principal_cad END)*100.0/SUM(principal_cad),1) AS npl_pct,
+       ROUND(AVG(collateral_coverage_ratio),2) AS avg_coverage
+FROM sme_loan_portfolio_canada
+GROUP BY collateral_type
+ORDER BY npl_pct DESC;</sql><sql name="SQL 6*">-- re-run baseline (expect ~3.9% NPL now)
+SELECT
+  ROUND(SUM(CASE WHEN dpd_bucket='NPL (&gt;90)' THEN principal_cad END)*100.0/SUM(principal_cad),1) AS npl_rate_pct,
+  ROUND(SUM(CASE WHEN days_past_due&gt;30 THEN principal_cad END)*100.0/SUM(principal_cad),1)        AS par30_pct,
+  ROUND(SUM(principal_cad)/1e6,1)                                                                  AS book_m
+FROM sme_loan_portfolio_canada;
+
+-- origination quality by officer
+SELECT loan_officer_id,
+       COUNT(*) AS loans,
+       ROUND(SUM(CASE WHEN dpd_bucket='NPL (&gt;90)' THEN principal_cad END)*100.0/SUM(principal_cad),1) AS npl_pct,
+       ROUND(AVG(collateral_coverage_ratio),2) AS avg_coverage
+FROM sme_loan_portfolio_canada
+GROUP BY loan_officer_id
+ORDER BY npl_pct DESC;</sql><sql name="SQL 7*">WITH scored AS (
+  SELECT *,
+    (CASE WHEN collateral_coverage_ratio&lt;0.70 THEN 40
+          WHEN collateral_coverage_ratio&lt;0.85 THEN 30
+          WHEN collateral_coverage_ratio&lt;1.00 THEN 20
+          WHEN collateral_coverage_ratio&lt;1.15 THEN 8 ELSE 0 END)
+   +(CASE WHEN interest_rate_pct&gt;12.5 THEN 25
+          WHEN interest_rate_pct&gt;11.5 THEN 18
+          WHEN interest_rate_pct&gt;10.5 THEN 10 ELSE 3 END)
+   +(CASE sector WHEN 'Construction' THEN 20 WHEN 'Transportation &amp; warehousing' THEN 16
+                 WHEN 'Retail trade' THEN 12 WHEN 'Agriculture' THEN 8
+                 WHEN 'Manufacturing' THEN 2 ELSE 0 END)
+   +(CASE loan_officer_id WHEN 'LO07' THEN 15 WHEN 'LO12' THEN 12 ELSE 0 END)
+     AS ews_score
+  FROM sme_loan_portfolio_canada
+)
+SELECT * FROM scored;   -- keep this CTE; the next two queries reuse it
+</sql><sql name="SQL 10*">SELECT CASE WHEN dpd_bucket='NPL (&gt;90)' THEN 'NPL' ELSE 'Performing/early' END AS grp,
+       COUNT(*) AS loans, ROUND(AVG(ews_score),1) AS avg_score
+FROM scored GROUP BY grp;</sql><sql name="SQL 11*">SELECT loan_id, sector, province, loan_officer_id,
+       principal_cad, collateral_coverage_ratio, interest_rate_pct,
+       dpd_bucket, ews_score
+FROM scored
+WHERE dpd_bucket &lt;&gt; 'NPL (&gt;90)'
+ORDER BY ews_score DESC
+LIMIT 20;</sql><sql name="SQL 12*">WITH el AS (
+  SELECT *,
+    principal_cad
+      * (CASE dpd_bucket WHEN 'Current' THEN 0.03 WHEN '1-30 DPD' THEN 0.10
+                         WHEN '31-60 DPD' THEN 0.30 WHEN '61-90 DPD' THEN 0.60
+                         ELSE 1.0 END)
+      * (1 - MIN(collateral_coverage_ratio,1.0))            AS expected_loss
+  FROM sme_loan_portfolio_canada
+)
+SELECT
+  CASE WHEN dpd_bucket='NPL (&gt;90)' THEN 'Already NPL (mostly gone)'
+       ELSE 'Still actionable (watch list)' END              AS stage,
+  COUNT(*)                             AS loans,
+  ROUND(SUM(expected_loss)/1e6,2)      AS expected_loss_m
+FROM el
+GROUP BY stage;</sql><current_tab id="9"/></tab_sql></sqlb_project>

@@ -1,59 +1,38 @@
-# 💳 SME Loan Portfolio Health Dashboard
+# SME Loan Portfolio Health: an early-warning system for a Canadian lender
 
-> **Sector:** Banking & Financial Services | **Tools:** SQL · Power BI | **Phase:** 1
+> Sector: Banking and financial services. Data: illustrative (simulated, Canadian). Tools: SQL (SQLite), Power BI, Datawrapper. Method: credit-risk scoring and early warning.
 
-**A development finance institution managing 1,200 SME loans is seeing NPL ratios creep up — but by the time a loan hits the NPL bucket, the intervention window has already closed. This dashboard surfaces the warning signals 60–90 days earlier.**
+This project runs on illustrative data. The loan book is simulated, but the risk relationships built into it are real ones, and the analysis is the same I would run on an actual portfolio. How the data was built is documented in `data/DATA_DICTIONARY.md`.
 
----
+## The problem
+A Canadian lender holds 1,200 small-business loans worth $114M across five provinces and six sectors. Its non-performing loan rate is 3.9% and rising. The catch is that the lender only learns a loan has gone bad once it passes 90 days past due, and by then the borrower is usually too far gone to recover and the loss is booked. I set out to build something that flags a loan heading for default while there is still time to act, and to find where the book is leaking so the lender can tighten who it lends to.
 
-## Business Problem
+## What I found
+The risk is not where I first looked. NPL rates by province sit within a few points of each other, so geography is not the story. Loan structure and who wrote the loan are.
 
-A development finance institution's NPL ratios have risen for three consecutive quarters but the risk team lacks a centralized view distinguishing early-stage stress from confirmed default. This dashboard surfaces payment pattern shifts, sector clustering, and borrower size concentration that precede default — giving the risk committee time to intervene.
+By sector, default concentrates in Construction (7.8%) and Transportation (6.4%), while Manufacturing and Professional services stay under 1%. By loan officer the split is sharper. Two officers, LO07 and LO12, run NPL rates of 14.8% and 8.0% against near zero for the best originators, and both write under-secured loans.
 
-## Key Questions
+The common marker is collateral. The loans that defaulted averaged 0.45 in collateral coverage, meaning the security was worth less than half the loan, and every one of them was under-secured. Performing loans averaged 1.04. A loan that went bad was usually set up that way at origination.
 
-1. Which borrower segments show early signs of payment stress?
-2. Is the NPL increase driven by a specific origination cohort or broadly distributed?
-3. Are there geographic clusters suggesting an external shock rather than individual credit risk?
-4. What is the projected NPL rate in 90 days if current trends hold?
-5. Which account officers have the highest concentration of watch-list accounts?
+## The early-warning score
+I built a score from the markers that are visible at origination: collateral coverage, interest rate, sector, and the officer. It runs from 0 to 100 and uses nothing about whether a loan is already late, so it works on loans that still look fine.
 
-## Dataset
+To test it, I compared the score on the loans that defaulted against the rest. Defaulted loans score 76.7 on average, performing loans 33.2. The score separates the two cleanly, which is what lets the lender act on it with confidence.
 
-Simulated loan portfolio data modeled on CBN SME lending guidelines and IFC MSME Finance Gap benchmarks.
-- 1,200 loan records · 18 months repayment history · 12 risk variables
-- File: `data/sme_loan_portfolio_simulated.csv`
-- ⚠️ *Clearly labeled as simulated throughout*
+Pointed at the performing book, the score produces a watch list: the accounts that most resemble the ones that defaulted. Most are LO07 or LO12, in Construction or Transportation, under-secured, and several are already drifting past due.
 
-## Methodology
+## The money
+Expected loss on the book is about $6.2M. Of that, $2.33M is in loans already past 90 days, where little can be done. The other $3.9M is in loans that have not defaulted yet. That $3.9M is the case for the watch list. Work those accounts now and most of it stays on the book; wait, and it moves quarter by quarter into the pile that is already gone.
 
-1. `sql/01_data_cleaning.sql` — Standardize loan IDs, calculate days past due, flag restructured loans
-2. `sql/02_cohort_analysis.sql` — Segment loans by origination quarter, track performance over time
-3. `sql/03_risk_tier_segmentation.sql` — Assign watch / substandard / doubtful flags by DPD and sector
-4. `sql/04_npl_projection.sql` — 90-day forward NPL estimate based on current trend line
-5. Power BI dashboard — Portfolio health heatmap, NPL trend, watchlist, sector concentration
+## The decision
+Three things come out of this for the lender:
 
-## Key Findings
+- Work the watch list now, starting with the highest scores that are already showing early delinquency.
+- Set a minimum collateral coverage at origination, since under-securing is the clearest marker of loss.
+- Review LO07 and LO12's files and tighten lending on Construction and Transportation, where the losses concentrate.
 
-*(To be updated when built)*
+## How I built it
+I shaped the loan book, built the health baseline and the score in SQLite, one query per question, made the publication charts in Datawrapper, and built the interactive dashboard in Power BI. The queries are in `sql/`, the chart data in `datawrapper/`.
 
-## Dashboard Preview
-
-![Portfolio Health Overview](assets/01_overview.png)
-![NPL Trend and Watchlist](assets/02_watchlist.png)
-
-## Folder Guide
-
-| Folder | Contents |
-|---|---|
-| `/data` | Simulated loan portfolio CSV |
-| `/sql` | Cohort, risk tier, and projection queries |
-| `/dashboard` | Power BI file (.pbix) + PDF export |
-| `/assets` | Dashboard screenshots |
-
-## Insight Summary
-
-The NPL problem is not random — it is concentrated in one origination cohort and one sector. Catching it now costs the institution a fraction of what catching it in 90 days will.
-
----
-*Part of a 20-project data analytics portfolio. [View all projects →](https://github.com/YOUR_USERNAME)*
+## Limitations
+The data is simulated and illustrative, not a real institution's book, and the risk relationships in it are ones I built in, described in the data dictionary. The probability-of-default weights behind the expected-loss figure are assumptions, not a fitted model. A real early-warning system would use each loan's repayment history over time rather than a single snapshot, and would be judged on how its flagged loans actually turn out.

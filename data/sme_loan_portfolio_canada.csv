@@ -1,0 +1,1201 @@
+loan_id,sector,principal_cad,tenure_months,interest_rate_pct,disbursement_date,maturity_date,days_past_due,dpd_bucket,collateral_type,collateral_coverage_ratio,loan_officer_id,province
+LN00001,Retail trade,156500,12,10.12,2022-04-06,2023-04-01,16,1-30 DPD,Equipment,0.99,LO14,Quebec
+LN00002,Construction,164000,36,11.99,2022-01-05,2024-12-20,49,31-60 DPD,None,0.32,LO03,Quebec
+LN00003,Retail trade,52500,24,10.06,2022-12-03,2024-11-22,24,1-30 DPD,Land,1.08,LO10,Ontario
+LN00004,Agriculture,36500,6,10.72,2023-11-07,2024-05-05,0,Current,Invoice,0.85,LO05,British Columbia
+LN00005,Transportation & warehousing,11000,6,11.25,2023-04-09,2023-10-06,27,1-30 DPD,None,1.01,LO14,Ontario
+LN00006,Transportation & warehousing,59000,6,12.04,2023-07-15,2024-01-11,88,61-90 DPD,None,0.19,LO07,Quebec
+LN00007,Manufacturing,51500,24,10.0,2022-08-02,2024-07-22,0,Current,Guarantee,1.04,LO11,Manitoba
+LN00008,Retail trade,61500,24,12.36,2022-11-14,2024-11-03,29,1-30 DPD,None,0.27,LO11,Ontario
+LN00009,Agriculture,98500,24,8.42,2023-02-02,2025-01-22,0,Current,Invoice,1.18,LO07,Ontario
+LN00010,Agriculture,116000,24,10.81,2022-04-06,2024-03-26,0,Current,Land,0.73,LO08,Alberta
+LN00011,Manufacturing,122000,12,8.4,2023-06-24,2024-06-18,0,Current,Guarantee,1.33,LO02,Ontario
+LN00012,Professional services,62000,12,9.37,2022-11-04,2023-10-30,0,Current,Equipment,1.29,LO05,British Columbia
+LN00013,Retail trade,105000,6,10.42,2023-06-07,2023-12-04,24,1-30 DPD,None,0.79,LO06,Quebec
+LN00014,Construction,24000,36,11.08,2023-11-09,2026-10-24,6,1-30 DPD,Invoice,1.15,LO03,Ontario
+LN00015,Professional services,17500,24,10.48,2022-11-01,2024-10-21,23,1-30 DPD,Invoice,1.25,LO05,Quebec
+LN00016,Manufacturing,46500,6,9.46,2023-09-11,2024-03-09,0,Current,Guarantee,1.03,LO02,Quebec
+LN00017,Construction,13000,24,12.47,2022-06-25,2024-06-14,103,NPL (>90),Invoice,0.15,LO12,British Columbia
+LN00018,Transportation & warehousing,94000,36,11.13,2023-09-24,2026-09-08,83,61-90 DPD,Guarantee,0.99,LO12,Alberta
+LN00019,Professional services,149000,6,8.69,2022-01-15,2022-07-14,0,Current,Equipment,1.16,LO04,Quebec
+LN00020,Transportation & warehousing,35000,12,11.88,2023-10-04,2024-09-28,80,61-90 DPD,None,0.46,LO05,Ontario
+LN00021,Professional services,35500,24,7.72,2022-06-20,2024-06-09,0,Current,Invoice,1.31,LO08,Ontario
+LN00022,Professional services,111000,12,7.92,2023-02-06,2024-02-01,0,Current,Land,1.69,LO02,Alberta
+LN00023,Transportation & warehousing,84500,24,11.81,2023-08-16,2025-08-05,60,31-60 DPD,Guarantee,0.77,LO07,Quebec
+LN00024,Construction,112000,36,11.74,2023-05-15,2026-04-29,46,31-60 DPD,Equipment,0.55,LO09,Ontario
+LN00025,Professional services,109500,36,11.86,2023-10-26,2026-10-10,15,1-30 DPD,Invoice,0.81,LO11,Quebec
+LN00026,Professional services,130500,6,10.55,2022-07-16,2023-01-12,0,Current,Invoice,0.91,LO04,British Columbia
+LN00027,Manufacturing,111500,18,9.75,2023-11-04,2025-04-27,0,Current,Invoice,1.42,LO14,Alberta
+LN00028,Transportation & warehousing,137000,24,9.88,2022-06-15,2024-06-04,0,Current,None,1.25,LO12,Alberta
+LN00029,Retail trade,125500,12,10.93,2022-06-10,2023-06-05,0,Current,Invoice,1.0,LO08,Quebec
+LN00030,Manufacturing,46000,6,7.68,2023-01-03,2023-07-02,0,Current,Guarantee,1.75,LO03,Manitoba
+LN00031,Construction,15500,6,10.59,2022-04-27,2022-10-24,0,Current,Equipment,0.72,LO06,Ontario
+LN00032,Agriculture,143000,36,13.0,2022-06-04,2025-05-19,77,61-90 DPD,None,0.49,LO02,Alberta
+LN00033,Retail trade,170500,24,12.35,2022-04-24,2024-04-13,101,NPL (>90),None,0.15,LO02,Ontario
+LN00034,Construction,17000,6,12.38,2022-05-01,2022-10-28,79,61-90 DPD,Equipment,0.24,LO03,Alberta
+LN00035,Agriculture,132500,36,11.89,2022-04-12,2025-03-27,42,31-60 DPD,Equipment,0.71,LO04,Quebec
+LN00036,Professional services,143000,6,6.86,2023-05-01,2023-10-28,0,Current,Guarantee,1.83,LO03,Ontario
+LN00037,Agriculture,74500,24,9.95,2023-11-12,2025-11-01,0,Current,None,0.99,LO04,Manitoba
+LN00038,Professional services,81500,24,9.23,2023-06-13,2025-06-02,0,Current,Guarantee,1.47,LO08,Manitoba
+LN00039,Retail trade,134000,36,11.03,2022-03-28,2025-03-12,30,1-30 DPD,Equipment,0.96,LO07,Ontario
+LN00040,Retail trade,124000,12,11.67,2022-03-01,2023-02-24,65,61-90 DPD,None,0.86,LO07,Quebec
+LN00041,Transportation & warehousing,131000,18,11.37,2022-11-18,2024-05-11,91,NPL (>90),Guarantee,0.88,LO10,Manitoba
+LN00042,Transportation & warehousing,79500,12,12.02,2023-10-02,2024-09-26,104,NPL (>90),None,0.49,LO12,Quebec
+LN00043,Transportation & warehousing,80000,12,10.63,2022-03-28,2023-03-23,0,Current,Equipment,1.11,LO09,Quebec
+LN00044,Manufacturing,26000,36,7.63,2022-12-15,2025-11-29,0,Current,Equipment,1.64,LO15,Ontario
+LN00045,Construction,112500,12,10.69,2022-11-08,2023-11-03,40,31-60 DPD,Land,0.92,LO14,Quebec
+LN00046,Agriculture,118500,18,9.44,2023-10-29,2025-04-21,0,Current,Land,0.93,LO10,Alberta
+LN00047,Retail trade,88500,12,10.83,2023-08-19,2024-08-13,0,Current,None,1.01,LO04,Quebec
+LN00048,Agriculture,59000,36,11.49,2023-01-22,2026-01-06,63,61-90 DPD,None,0.79,LO02,Quebec
+LN00049,Construction,110500,18,10.6,2022-05-31,2023-11-22,54,31-60 DPD,Land,1.15,LO07,Manitoba
+LN00050,Professional services,47000,6,9.23,2023-06-23,2023-12-20,0,Current,Invoice,1.34,LO09,Ontario
+LN00051,Professional services,161000,36,12.57,2023-03-10,2026-02-22,80,61-90 DPD,Invoice,0.23,LO07,Ontario
+LN00052,Manufacturing,35000,12,7.89,2023-04-14,2024-04-08,0,Current,Equipment,1.48,LO09,Ontario
+LN00053,Construction,30000,12,7.7,2022-02-03,2023-01-29,0,Current,Guarantee,1.89,LO02,British Columbia
+LN00054,Professional services,29000,18,9.76,2022-02-11,2023-08-05,0,Current,None,1.41,LO06,Quebec
+LN00055,Agriculture,62500,24,8.11,2022-05-27,2024-05-16,0,Current,Land,1.39,LO05,Quebec
+LN00056,Manufacturing,41500,24,9.72,2023-07-15,2025-07-04,0,Current,Guarantee,0.93,LO01,Quebec
+LN00057,Professional services,109000,36,10.73,2022-12-12,2025-11-26,40,31-60 DPD,None,0.78,LO03,British Columbia
+LN00058,Transportation & warehousing,89500,24,11.72,2022-06-02,2024-05-22,49,31-60 DPD,Guarantee,1.09,LO10,Alberta
+LN00059,Construction,80500,12,9.73,2022-12-14,2023-12-09,0,Current,Invoice,0.96,LO11,Ontario
+LN00060,Manufacturing,132500,36,10.79,2022-11-13,2025-10-28,9,1-30 DPD,None,0.68,LO11,British Columbia
+LN00061,Retail trade,43000,36,9.33,2022-02-24,2025-02-08,0,Current,Invoice,1.11,LO01,Ontario
+LN00062,Transportation & warehousing,172000,12,11.41,2022-10-09,2023-10-04,63,61-90 DPD,Equipment,1.01,LO12,Ontario
+LN00063,Construction,86500,36,10.03,2023-02-16,2026-01-31,43,31-60 DPD,Land,0.86,LO03,Quebec
+LN00064,Retail trade,158500,18,12.5,2022-04-04,2023-09-26,27,1-30 DPD,Land,0.88,LO09,Manitoba
+LN00065,Agriculture,34500,18,10.59,2022-06-07,2023-11-29,76,61-90 DPD,Equipment,0.96,LO06,Manitoba
+LN00066,Retail trade,133500,18,11.72,2022-11-24,2024-05-17,70,61-90 DPD,Equipment,0.32,LO06,Quebec
+LN00067,Professional services,173000,6,8.89,2022-09-03,2023-03-02,0,Current,Invoice,0.85,LO09,Quebec
+LN00068,Retail trade,56500,18,11.24,2023-02-21,2024-08-14,4,1-30 DPD,Land,0.79,LO07,Alberta
+LN00069,Manufacturing,168000,6,8.48,2023-08-24,2024-02-20,0,Current,None,1.02,LO03,Quebec
+LN00070,Construction,80000,6,11.34,2023-05-28,2023-11-24,75,61-90 DPD,Equipment,0.87,LO03,Quebec
+LN00071,Construction,180500,12,9.74,2023-03-10,2024-03-04,0,Current,Land,0.94,LO08,Ontario
+LN00072,Construction,60000,12,7.81,2023-05-09,2024-05-03,0,Current,Guarantee,1.57,LO14,Alberta
+LN00073,Professional services,183000,12,9.37,2023-06-07,2024-06-01,0,Current,None,1.38,LO05,Ontario
+LN00074,Professional services,130500,12,8.36,2022-10-14,2023-10-09,0,Current,Invoice,1.27,LO09,Ontario
+LN00075,Agriculture,163000,18,10.19,2023-04-09,2024-09-30,3,1-30 DPD,Guarantee,1.17,LO08,British Columbia
+LN00076,Agriculture,12500,12,12.11,2022-01-03,2022-12-29,24,1-30 DPD,None,0.46,LO15,Ontario
+LN00077,Transportation & warehousing,40000,36,10.29,2023-05-16,2026-04-30,65,61-90 DPD,Land,1.0,LO15,Ontario
+LN00078,Transportation & warehousing,87000,6,11.74,2023-01-21,2023-07-20,30,1-30 DPD,None,0.35,LO03,Ontario
+LN00079,Transportation & warehousing,180000,6,9.54,2022-07-17,2023-01-13,0,Current,Land,1.26,LO11,Alberta
+LN00080,Agriculture,43000,36,9.54,2022-08-15,2025-07-30,18,1-30 DPD,Equipment,1.38,LO06,Ontario
+LN00081,Agriculture,95000,36,12.11,2022-07-20,2025-07-04,0,Current,Land,0.23,LO10,British Columbia
+LN00082,Professional services,39500,12,10.91,2023-08-03,2024-07-28,91,NPL (>90),None,0.78,LO02,British Columbia
+LN00083,Manufacturing,139000,12,9.34,2023-08-07,2024-08-01,0,Current,Guarantee,0.86,LO11,Ontario
+LN00084,Transportation & warehousing,127000,36,12.61,2023-07-28,2026-07-12,28,1-30 DPD,Invoice,0.42,LO07,Alberta
+LN00085,Transportation & warehousing,173000,6,9.56,2022-11-27,2023-05-26,0,Current,Guarantee,1.4,LO09,Quebec
+LN00086,Professional services,72500,6,9.44,2022-08-18,2023-02-14,0,Current,Land,1.09,LO07,British Columbia
+LN00087,Professional services,64500,24,9.05,2022-03-25,2024-03-14,0,Current,Equipment,1.62,LO07,Ontario
+LN00088,Manufacturing,44000,18,9.43,2023-10-04,2025-03-27,0,Current,Land,1.12,LO07,Ontario
+LN00089,Retail trade,112500,18,10.95,2022-09-11,2024-03-04,9,1-30 DPD,Guarantee,0.87,LO14,Quebec
+LN00090,Construction,147500,6,12.01,2023-09-27,2024-03-25,67,61-90 DPD,Invoice,0.61,LO11,Quebec
+LN00091,Construction,31500,6,9.43,2023-01-22,2023-07-21,0,Current,Land,0.93,LO01,Ontario
+LN00092,Professional services,19000,36,7.53,2022-03-09,2025-02-21,0,Current,Land,1.74,LO09,Ontario
+LN00093,Agriculture,157000,24,12.16,2023-02-25,2025-02-14,131,NPL (>90),None,0.15,LO07,Quebec
+LN00094,Professional services,162000,36,8.37,2023-10-29,2026-10-13,0,Current,Land,1.09,LO06,British Columbia
+LN00095,Manufacturing,28500,6,8.96,2022-03-11,2022-09-07,22,1-30 DPD,None,1.06,LO09,Quebec
+LN00096,Agriculture,82500,36,10.11,2022-09-06,2025-08-21,26,1-30 DPD,Equipment,0.85,LO01,Manitoba
+LN00097,Agriculture,111000,36,9.9,2023-01-02,2025-12-17,2,1-30 DPD,Equipment,1.21,LO05,British Columbia
+LN00098,Agriculture,60000,6,11.66,2023-11-05,2024-05-03,7,1-30 DPD,Equipment,0.68,LO09,Ontario
+LN00099,Construction,158500,24,10.3,2022-07-25,2024-07-14,0,Current,Land,1.27,LO11,Quebec
+LN00100,Transportation & warehousing,129500,24,9.86,2022-12-06,2024-11-25,0,Current,None,1.13,LO06,British Columbia
+LN00101,Agriculture,82500,12,8.13,2022-02-13,2023-02-08,0,Current,Equipment,1.3,LO08,British Columbia
+LN00102,Manufacturing,51000,18,9.56,2023-01-20,2024-07-13,0,Current,Equipment,1.11,LO14,Ontario
+LN00103,Agriculture,11500,18,10.7,2022-04-28,2023-10-20,0,Current,None,0.84,LO06,Ontario
+LN00104,Retail trade,44500,18,10.13,2022-09-26,2024-03-19,1,1-30 DPD,Equipment,0.92,LO09,Manitoba
+LN00105,Manufacturing,43500,12,9.58,2022-04-14,2023-04-09,0,Current,Invoice,1.36,LO15,Ontario
+LN00106,Agriculture,172000,18,8.38,2023-01-14,2024-07-07,0,Current,Guarantee,1.56,LO09,Ontario
+LN00107,Construction,162500,6,10.13,2022-05-14,2022-11-10,0,Current,Invoice,1.02,LO06,British Columbia
+LN00108,Professional services,179000,12,9.9,2023-09-23,2024-09-17,0,Current,None,0.83,LO09,Quebec
+LN00109,Manufacturing,66500,6,10.99,2022-10-14,2023-04-12,25,1-30 DPD,None,1.21,LO04,Alberta
+LN00110,Retail trade,145500,36,10.78,2023-06-05,2026-05-20,53,31-60 DPD,Invoice,1.06,LO11,Ontario
+LN00111,Construction,74500,36,9.29,2022-11-26,2025-11-10,0,Current,Invoice,0.57,LO08,Quebec
+LN00112,Agriculture,110500,36,11.43,2022-08-01,2025-07-16,9,1-30 DPD,Equipment,0.54,LO08,Ontario
+LN00113,Manufacturing,78500,18,9.88,2023-01-22,2024-07-15,0,Current,Guarantee,0.98,LO02,Manitoba
+LN00114,Retail trade,61000,36,9.63,2023-08-21,2026-08-05,21,1-30 DPD,Land,1.15,LO10,Quebec
+LN00115,Professional services,88000,24,8.58,2023-05-25,2025-05-14,0,Current,Equipment,1.07,LO05,Alberta
+LN00116,Retail trade,72000,6,11.8,2023-05-29,2023-11-25,80,61-90 DPD,None,0.66,LO02,Ontario
+LN00117,Agriculture,170500,6,9.03,2023-01-04,2023-07-03,6,1-30 DPD,Equipment,1.23,LO05,Quebec
+LN00118,Transportation & warehousing,151000,18,9.64,2023-09-11,2025-03-04,13,1-30 DPD,Equipment,0.98,LO13,Alberta
+LN00119,Transportation & warehousing,104000,18,9.36,2022-11-03,2024-04-26,25,1-30 DPD,Invoice,1.09,LO14,British Columbia
+LN00120,Transportation & warehousing,12000,36,11.11,2022-06-02,2025-05-17,0,Current,Invoice,0.77,LO12,Alberta
+LN00121,Manufacturing,92000,36,9.62,2023-07-20,2026-07-04,30,1-30 DPD,Invoice,1.06,LO02,Quebec
+LN00122,Manufacturing,84000,24,11.2,2023-04-06,2025-03-26,75,61-90 DPD,None,0.26,LO03,British Columbia
+LN00123,Manufacturing,62500,6,7.85,2023-11-06,2024-05-04,0,Current,Invoice,1.45,LO13,Quebec
+LN00124,Transportation & warehousing,103000,18,9.14,2023-08-05,2025-01-26,13,1-30 DPD,Land,1.18,LO03,Quebec
+LN00125,Construction,119000,36,10.4,2023-08-11,2026-07-26,12,1-30 DPD,Equipment,0.98,LO02,British Columbia
+LN00126,Professional services,42500,6,7.35,2023-04-08,2023-10-05,0,Current,Guarantee,1.5,LO02,Alberta
+LN00127,Construction,40500,36,12.72,2022-07-11,2025-06-25,117,NPL (>90),Invoice,0.36,LO04,Quebec
+LN00128,Transportation & warehousing,100500,24,11.05,2023-06-15,2025-06-04,45,31-60 DPD,Land,0.9,LO14,Quebec
+LN00129,Professional services,37000,6,8.28,2023-03-05,2023-09-01,0,Current,Equipment,1.23,LO04,Quebec
+LN00130,Professional services,151500,24,8.84,2023-08-12,2025-08-01,0,Current,Guarantee,1.46,LO09,Alberta
+LN00131,Transportation & warehousing,89500,12,11.48,2022-05-27,2023-05-22,19,1-30 DPD,None,0.57,LO09,Quebec
+LN00132,Construction,162000,24,9.51,2022-02-10,2024-01-31,0,Current,Land,0.95,LO15,Quebec
+LN00133,Agriculture,131000,18,12.01,2022-06-29,2023-12-21,74,61-90 DPD,None,0.68,LO08,Quebec
+LN00134,Transportation & warehousing,41500,36,9.67,2022-02-14,2025-01-29,0,Current,Equipment,1.02,LO03,Quebec
+LN00135,Transportation & warehousing,103000,6,11.6,2022-08-11,2023-02-07,31,31-60 DPD,None,0.88,LO06,Ontario
+LN00136,Retail trade,97000,18,11.41,2022-06-18,2023-12-10,38,31-60 DPD,Guarantee,0.32,LO01,Quebec
+LN00137,Retail trade,22500,24,10.91,2023-02-13,2025-02-02,0,Current,Land,1.19,LO12,Manitoba
+LN00138,Agriculture,126000,24,9.36,2022-03-11,2024-02-29,0,Current,Land,1.07,LO04,Alberta
+LN00139,Professional services,34000,18,10.51,2022-06-24,2023-12-16,0,Current,Equipment,1.2,LO09,Alberta
+LN00140,Professional services,39000,6,11.32,2022-06-07,2022-12-04,5,1-30 DPD,Invoice,1.13,LO04,Alberta
+LN00141,Retail trade,164500,36,9.13,2022-02-18,2025-02-02,0,Current,Land,1.23,LO05,Quebec
+LN00142,Retail trade,113500,6,12.14,2022-07-26,2023-01-22,78,61-90 DPD,Equipment,0.47,LO04,Manitoba
+LN00143,Retail trade,12500,6,8.13,2022-12-12,2023-06-10,0,Current,Land,1.16,LO15,Ontario
+LN00144,Transportation & warehousing,39000,12,9.14,2023-06-09,2024-06-03,21,1-30 DPD,Land,0.74,LO06,British Columbia
+LN00145,Transportation & warehousing,42500,12,8.04,2023-02-09,2024-02-04,0,Current,Equipment,1.28,LO06,Manitoba
+LN00146,Retail trade,79500,18,10.93,2022-08-06,2024-01-28,7,1-30 DPD,Invoice,1.22,LO11,Ontario
+LN00147,Agriculture,122500,18,10.64,2022-08-12,2024-02-03,36,31-60 DPD,Invoice,0.7,LO02,Alberta
+LN00148,Construction,147000,36,11.97,2022-04-08,2025-03-23,40,31-60 DPD,None,0.63,LO11,Alberta
+LN00149,Professional services,127000,12,9.07,2023-10-13,2024-10-07,27,1-30 DPD,Invoice,1.46,LO01,British Columbia
+LN00150,Construction,87500,36,12.74,2022-08-27,2025-08-11,56,31-60 DPD,None,0.48,LO01,Manitoba
+LN00151,Retail trade,116500,6,10.59,2023-03-15,2023-09-11,35,31-60 DPD,Land,0.91,LO08,Quebec
+LN00152,Manufacturing,36000,12,8.65,2022-09-01,2023-08-27,0,Current,None,0.94,LO08,Alberta
+LN00153,Agriculture,33000,18,10.21,2022-02-10,2023-08-04,0,Current,Guarantee,1.05,LO04,Ontario
+LN00154,Transportation & warehousing,67000,12,9.39,2022-02-25,2023-02-20,0,Current,Equipment,0.99,LO12,Alberta
+LN00155,Manufacturing,115000,24,9.66,2022-07-07,2024-06-26,0,Current,Invoice,0.94,LO04,Ontario
+LN00156,Transportation & warehousing,181500,12,11.19,2022-06-27,2023-06-22,39,31-60 DPD,None,0.89,LO13,Manitoba
+LN00157,Manufacturing,97500,24,7.97,2022-11-15,2024-11-04,0,Current,Invoice,1.43,LO04,Quebec
+LN00158,Agriculture,109500,12,8.05,2023-05-08,2024-05-02,0,Current,Land,1.61,LO06,Quebec
+LN00159,Professional services,39000,24,10.54,2023-09-17,2025-09-06,23,1-30 DPD,Invoice,1.04,LO07,Quebec
+LN00160,Retail trade,141000,18,11.25,2022-06-06,2023-11-28,38,31-60 DPD,None,0.71,LO05,Quebec
+LN00161,Professional services,62500,18,10.61,2023-09-13,2025-03-06,0,Current,Invoice,0.87,LO15,Manitoba
+LN00162,Retail trade,12000,36,12.86,2023-01-19,2026-01-03,74,61-90 DPD,Invoice,0.15,LO07,Quebec
+LN00163,Transportation & warehousing,74500,24,8.65,2023-08-26,2025-08-15,0,Current,Land,1.37,LO10,Manitoba
+LN00164,Manufacturing,142000,18,11.49,2022-12-23,2024-06-15,8,1-30 DPD,None,0.68,LO11,Alberta
+LN00165,Agriculture,130500,24,11.42,2022-09-10,2024-08-30,34,31-60 DPD,Guarantee,0.9,LO11,Ontario
+LN00166,Transportation & warehousing,125000,12,9.23,2023-04-12,2024-04-06,0,Current,Equipment,1.18,LO10,British Columbia
+LN00167,Transportation & warehousing,155500,6,10.71,2022-04-05,2022-10-02,0,Current,Invoice,0.67,LO15,Ontario
+LN00168,Construction,167500,24,8.48,2023-03-14,2025-03-03,0,Current,Guarantee,1.18,LO09,British Columbia
+LN00169,Transportation & warehousing,163500,36,10.76,2023-02-26,2026-02-10,1,1-30 DPD,Land,0.78,LO10,Ontario
+LN00170,Agriculture,151000,18,9.5,2023-02-12,2024-08-05,0,Current,Guarantee,0.73,LO03,Ontario
+LN00171,Professional services,10000,6,8.53,2023-03-04,2023-08-31,0,Current,Invoice,1.27,LO06,Manitoba
+LN00172,Transportation & warehousing,33000,24,11.61,2022-04-23,2024-04-12,45,31-60 DPD,Invoice,0.58,LO04,Manitoba
+LN00173,Manufacturing,20000,12,9.54,2022-07-16,2023-07-11,0,Current,Invoice,1.4,LO15,British Columbia
+LN00174,Retail trade,160000,12,10.08,2022-03-29,2023-03-24,0,Current,Invoice,0.68,LO02,Quebec
+LN00175,Retail trade,111000,24,8.26,2022-04-14,2024-04-03,0,Current,Land,0.95,LO13,Ontario
+LN00176,Retail trade,46500,6,8.33,2023-06-17,2023-12-14,0,Current,Guarantee,1.09,LO08,Ontario
+LN00177,Agriculture,114500,18,11.23,2022-12-18,2024-06-10,0,Current,Guarantee,0.91,LO07,British Columbia
+LN00178,Retail trade,178500,18,11.59,2022-01-04,2023-06-28,15,1-30 DPD,Invoice,0.69,LO07,Alberta
+LN00179,Manufacturing,14000,6,9.8,2022-10-14,2023-04-12,0,Current,Equipment,0.98,LO10,Alberta
+LN00180,Transportation & warehousing,160500,36,11.2,2022-07-12,2025-06-26,53,31-60 DPD,Land,0.8,LO14,Quebec
+LN00181,Retail trade,119500,6,12.64,2022-11-30,2023-05-29,57,31-60 DPD,Invoice,0.6,LO10,Ontario
+LN00182,Retail trade,70000,24,12.69,2022-04-13,2024-04-02,138,NPL (>90),Invoice,0.15,LO04,Alberta
+LN00183,Manufacturing,160500,36,10.36,2023-06-01,2026-05-16,27,1-30 DPD,Land,0.92,LO11,British Columbia
+LN00184,Professional services,39000,24,10.06,2023-05-09,2025-04-28,0,Current,None,0.88,LO04,Manitoba
+LN00185,Transportation & warehousing,131000,6,9.77,2022-01-30,2022-07-29,12,1-30 DPD,Invoice,1.06,LO04,Alberta
+LN00186,Agriculture,125000,6,9.83,2023-07-02,2023-12-29,33,31-60 DPD,Invoice,0.71,LO12,Quebec
+LN00187,Manufacturing,171000,36,9.61,2022-12-18,2025-12-02,0,Current,Invoice,1.59,LO13,British Columbia
+LN00188,Professional services,150000,12,6.77,2022-10-25,2023-10-20,0,Current,Land,1.73,LO06,Alberta
+LN00189,Construction,172000,6,10.98,2022-05-11,2022-11-07,0,Current,None,1.09,LO05,Ontario
+LN00190,Construction,102500,24,9.48,2022-11-24,2024-11-13,0,Current,Guarantee,1.13,LO15,Ontario
+LN00191,Manufacturing,100000,36,10.2,2022-04-20,2025-04-04,0,Current,Invoice,0.76,LO14,Quebec
+LN00192,Manufacturing,96500,24,6.43,2022-10-18,2024-10-07,0,Current,Equipment,1.64,LO14,Ontario
+LN00193,Transportation & warehousing,15500,18,12.24,2022-05-07,2023-10-29,84,61-90 DPD,None,0.62,LO14,Manitoba
+LN00194,Professional services,60500,24,9.34,2022-12-08,2024-11-27,0,Current,Equipment,1.34,LO04,Ontario
+LN00195,Transportation & warehousing,171500,12,12.14,2022-02-23,2023-02-18,89,61-90 DPD,Invoice,0.35,LO05,Ontario
+LN00196,Transportation & warehousing,168000,12,11.15,2023-07-16,2024-07-10,0,Current,Invoice,0.59,LO11,Quebec
+LN00197,Agriculture,141000,24,11.24,2022-10-17,2024-10-06,17,1-30 DPD,None,1.19,LO03,Quebec
+LN00198,Construction,160000,6,10.34,2022-11-08,2023-05-07,0,Current,Invoice,1.01,LO10,Manitoba
+LN00199,Professional services,130500,18,9.72,2022-08-03,2024-01-25,36,31-60 DPD,Land,0.84,LO14,British Columbia
+LN00200,Retail trade,127500,12,7.21,2023-03-14,2024-03-08,0,Current,Equipment,1.69,LO02,Quebec
+LN00201,Professional services,41000,6,7.91,2023-06-12,2023-12-09,0,Current,Equipment,1.36,LO07,Manitoba
+LN00202,Retail trade,30500,24,10.75,2023-09-03,2025-08-23,19,1-30 DPD,Equipment,0.81,LO07,Ontario
+LN00203,Transportation & warehousing,181500,6,8.7,2023-10-28,2024-04-25,0,Current,Invoice,1.17,LO02,Ontario
+LN00204,Retail trade,31000,36,11.91,2023-08-24,2026-08-08,65,61-90 DPD,None,0.71,LO08,Quebec
+LN00205,Transportation & warehousing,139000,36,10.37,2023-05-11,2026-04-25,0,Current,Guarantee,0.92,LO02,Quebec
+LN00206,Retail trade,133500,36,11.37,2022-01-21,2025-01-05,7,1-30 DPD,Invoice,0.45,LO09,Ontario
+LN00207,Construction,94500,36,12.26,2023-07-06,2026-06-20,61,61-90 DPD,Land,0.58,LO04,Alberta
+LN00208,Retail trade,41000,36,10.45,2022-01-06,2024-12-21,0,Current,None,0.83,LO06,Ontario
+LN00209,Retail trade,32000,12,8.49,2022-03-31,2023-03-26,0,Current,Land,1.31,LO02,British Columbia
+LN00210,Agriculture,73000,36,8.57,2023-11-05,2026-10-20,0,Current,Land,1.04,LO01,British Columbia
+LN00211,Agriculture,124000,24,8.32,2023-05-18,2025-05-07,0,Current,Guarantee,1.53,LO09,Manitoba
+LN00212,Transportation & warehousing,27000,6,10.92,2022-07-12,2023-01-08,45,31-60 DPD,Equipment,0.5,LO14,Manitoba
+LN00213,Manufacturing,114000,12,8.07,2022-10-12,2023-10-07,0,Current,Land,1.17,LO05,Quebec
+LN00214,Transportation & warehousing,166500,24,13.22,2022-09-18,2024-09-07,18,1-30 DPD,Invoice,0.63,LO03,British Columbia
+LN00215,Manufacturing,22000,18,11.7,2023-10-24,2025-04-16,53,31-60 DPD,None,0.58,LO07,Ontario
+LN00216,Manufacturing,64500,24,9.74,2023-09-11,2025-08-31,0,Current,Equipment,0.9,LO02,British Columbia
+LN00217,Retail trade,128500,24,11.82,2023-10-18,2025-10-07,86,61-90 DPD,Guarantee,0.65,LO13,Manitoba
+LN00218,Agriculture,11500,24,10.83,2022-08-16,2024-08-05,20,1-30 DPD,Invoice,0.88,LO13,Ontario
+LN00219,Manufacturing,101000,18,10.79,2023-05-17,2024-11-07,0,Current,None,1.03,LO09,Quebec
+LN00220,Construction,27000,6,11.65,2023-02-03,2023-08-02,60,31-60 DPD,Equipment,1.13,LO12,Alberta
+LN00221,Construction,105500,24,11.55,2022-05-11,2024-04-30,19,1-30 DPD,Equipment,1.01,LO03,Quebec
+LN00222,Construction,137000,6,11.62,2023-10-17,2024-04-14,61,61-90 DPD,Guarantee,0.58,LO04,Alberta
+LN00223,Construction,82000,24,9.37,2022-12-29,2024-12-18,0,Current,Guarantee,1.32,LO09,Alberta
+LN00224,Manufacturing,62500,6,8.42,2023-02-21,2023-08-20,0,Current,Guarantee,1.75,LO11,Ontario
+LN00225,Retail trade,136000,6,9.48,2022-02-28,2022-08-27,0,Current,Invoice,1.08,LO01,Quebec
+LN00226,Transportation & warehousing,98000,12,12.95,2023-06-12,2024-06-06,83,61-90 DPD,None,0.34,LO07,Ontario
+LN00227,Construction,42500,6,10.98,2023-07-02,2023-12-29,0,Current,None,1.0,LO01,British Columbia
+LN00228,Professional services,177000,36,9.29,2022-06-29,2025-06-13,0,Current,Land,1.09,LO03,British Columbia
+LN00229,Agriculture,175000,24,9.33,2022-06-24,2024-06-13,0,Current,Equipment,1.44,LO14,Ontario
+LN00230,Retail trade,60000,24,8.82,2022-08-07,2024-07-27,0,Current,Land,1.04,LO10,Quebec
+LN00231,Manufacturing,169500,36,8.24,2022-02-06,2025-01-21,0,Current,Invoice,0.99,LO01,British Columbia
+LN00232,Professional services,66500,18,7.45,2022-12-25,2024-06-17,0,Current,Equipment,1.36,LO01,Ontario
+LN00233,Professional services,95000,6,7.6,2022-06-07,2022-12-04,0,Current,Land,1.44,LO11,Quebec
+LN00234,Manufacturing,91500,18,8.2,2023-03-15,2024-09-05,0,Current,Equipment,1.29,LO05,Ontario
+LN00235,Professional services,123500,24,6.95,2022-12-29,2024-12-18,0,Current,Equipment,1.78,LO05,Ontario
+LN00236,Manufacturing,78000,18,9.81,2022-06-14,2023-12-06,0,Current,Equipment,0.95,LO11,Quebec
+LN00237,Retail trade,82500,36,11.44,2023-11-30,2026-11-14,26,1-30 DPD,Invoice,0.85,LO15,Alberta
+LN00238,Professional services,32500,6,10.35,2022-05-10,2022-11-06,0,Current,Equipment,0.87,LO01,Ontario
+LN00239,Transportation & warehousing,50500,18,11.21,2023-09-04,2025-02-25,85,61-90 DPD,Guarantee,0.58,LO02,Ontario
+LN00240,Professional services,52500,12,9.28,2022-07-11,2023-07-06,0,Current,Equipment,1.1,LO02,Ontario
+LN00241,Agriculture,182000,12,8.99,2023-03-16,2024-03-10,0,Current,Land,1.13,LO09,British Columbia
+LN00242,Manufacturing,42500,36,12.06,2022-06-02,2025-05-17,39,31-60 DPD,Equipment,0.86,LO07,Ontario
+LN00243,Agriculture,181500,12,8.02,2023-09-24,2024-09-18,0,Current,Invoice,1.32,LO05,Alberta
+LN00244,Transportation & warehousing,179500,12,10.6,2023-05-06,2024-04-30,40,31-60 DPD,Land,0.54,LO11,Ontario
+LN00245,Agriculture,29000,18,11.1,2022-12-26,2024-06-18,62,61-90 DPD,Land,1.1,LO01,Ontario
+LN00246,Transportation & warehousing,139000,12,12.61,2022-10-14,2023-10-09,108,NPL (>90),None,0.59,LO03,Quebec
+LN00247,Professional services,73000,18,8.93,2023-11-17,2025-05-10,0,Current,Equipment,1.08,LO12,Ontario
+LN00248,Agriculture,138500,36,10.25,2023-01-16,2025-12-31,10,1-30 DPD,Equipment,0.86,LO04,British Columbia
+LN00249,Professional services,25000,6,7.36,2023-09-09,2024-03-07,0,Current,Equipment,1.69,LO08,Ontario
+LN00250,Retail trade,173000,36,10.85,2023-05-01,2026-04-15,0,Current,Equipment,1.17,LO03,Ontario
+LN00251,Manufacturing,43000,36,10.37,2023-07-28,2026-07-12,16,1-30 DPD,Invoice,0.88,LO02,Quebec
+LN00252,Retail trade,93500,36,9.86,2023-05-31,2026-05-15,0,Current,Land,1.23,LO05,Alberta
+LN00253,Manufacturing,60000,36,11.0,2022-07-14,2025-06-28,0,Current,None,0.59,LO02,Manitoba
+LN00254,Professional services,140000,24,9.19,2023-02-04,2025-01-24,0,Current,Invoice,1.2,LO04,Manitoba
+LN00255,Retail trade,37500,12,12.86,2022-01-10,2023-01-05,99,NPL (>90),Invoice,0.58,LO12,British Columbia
+LN00256,Agriculture,62500,12,11.38,2022-10-02,2023-09-27,8,1-30 DPD,None,0.92,LO04,Ontario
+LN00257,Construction,51000,6,12.15,2022-10-12,2023-04-10,36,31-60 DPD,Land,1.05,LO04,Ontario
+LN00258,Manufacturing,102500,6,10.23,2023-10-10,2024-04-07,16,1-30 DPD,None,1.08,LO06,Ontario
+LN00259,Transportation & warehousing,163000,18,10.28,2023-02-23,2024-08-16,0,Current,Land,1.1,LO01,Ontario
+LN00260,Agriculture,47500,18,11.21,2022-01-17,2023-07-11,35,31-60 DPD,None,0.95,LO14,Ontario
+LN00261,Construction,28000,24,11.69,2022-09-21,2024-09-10,17,1-30 DPD,None,0.42,LO08,Manitoba
+LN00262,Agriculture,56500,36,11.85,2023-02-09,2026-01-24,61,61-90 DPD,Equipment,0.49,LO12,Alberta
+LN00263,Professional services,73500,24,9.17,2022-07-05,2024-06-24,0,Current,Equipment,1.23,LO08,Alberta
+LN00264,Manufacturing,122000,6,8.14,2022-07-01,2022-12-28,0,Current,Invoice,1.44,LO04,Ontario
+LN00265,Manufacturing,22000,12,8.58,2023-10-23,2024-10-17,0,Current,None,1.32,LO13,Ontario
+LN00266,Retail trade,114500,24,11.09,2022-04-23,2024-04-12,28,1-30 DPD,Land,0.88,LO11,Ontario
+LN00267,Manufacturing,53000,6,8.72,2023-10-05,2024-04-02,0,Current,Land,1.3,LO02,British Columbia
+LN00268,Transportation & warehousing,151500,6,8.82,2023-05-07,2023-11-03,0,Current,None,1.72,LO14,Manitoba
+LN00269,Agriculture,67000,12,8.65,2023-07-11,2024-07-05,0,Current,Land,1.22,LO01,Ontario
+LN00270,Construction,61000,36,9.96,2023-03-02,2026-02-14,0,Current,Equipment,0.8,LO04,Ontario
+LN00271,Manufacturing,83500,12,9.37,2022-10-21,2023-10-16,7,1-30 DPD,Invoice,1.17,LO12,Ontario
+LN00272,Retail trade,95000,6,8.83,2022-10-16,2023-04-14,0,Current,Guarantee,1.22,LO06,Ontario
+LN00273,Agriculture,169500,6,8.91,2023-09-12,2024-03-10,0,Current,Guarantee,1.37,LO11,Quebec
+LN00274,Manufacturing,164500,18,9.41,2022-10-21,2024-04-13,0,Current,Guarantee,1.21,LO05,Quebec
+LN00275,Transportation & warehousing,73500,18,10.29,2022-03-20,2023-09-11,0,Current,Equipment,0.68,LO03,Quebec
+LN00276,Manufacturing,77500,24,10.61,2022-04-26,2024-04-15,54,31-60 DPD,None,0.92,LO12,Quebec
+LN00277,Manufacturing,25500,12,10.46,2023-01-30,2024-01-25,0,Current,Invoice,0.55,LO07,British Columbia
+LN00278,Transportation & warehousing,67500,12,9.51,2023-07-17,2024-07-11,0,Current,Invoice,1.0,LO08,British Columbia
+LN00279,Construction,152000,24,11.01,2023-03-08,2025-02-25,38,31-60 DPD,Equipment,0.86,LO04,Quebec
+LN00280,Retail trade,45000,6,8.12,2023-05-01,2023-10-28,0,Current,Equipment,1.52,LO01,Quebec
+LN00281,Agriculture,157000,12,12.1,2022-05-28,2023-05-23,22,1-30 DPD,Invoice,0.18,LO14,Manitoba
+LN00282,Retail trade,139000,6,12.13,2022-05-27,2022-11-23,16,1-30 DPD,Invoice,0.68,LO12,Quebec
+LN00283,Agriculture,19000,6,9.43,2022-03-17,2022-09-13,0,Current,Equipment,1.26,LO06,Manitoba
+LN00284,Retail trade,52000,6,10.46,2023-03-03,2023-08-30,0,Current,Equipment,1.05,LO08,Alberta
+LN00285,Manufacturing,139500,18,7.95,2022-12-12,2024-06-04,0,Current,Land,1.52,LO03,Ontario
+LN00286,Transportation & warehousing,15500,12,10.31,2022-01-12,2023-01-07,23,1-30 DPD,Invoice,0.79,LO11,Quebec
+LN00287,Construction,133000,18,9.47,2023-05-29,2024-11-19,0,Current,Equipment,1.38,LO02,British Columbia
+LN00288,Professional services,179000,12,11.35,2023-02-15,2024-02-10,56,31-60 DPD,None,0.85,LO07,Manitoba
+LN00289,Transportation & warehousing,179000,36,10.6,2023-04-25,2026-04-09,0,Current,Invoice,0.74,LO03,Ontario
+LN00290,Agriculture,122000,12,8.44,2022-04-17,2023-04-12,0,Current,Land,1.42,LO13,Ontario
+LN00291,Agriculture,14500,18,8.5,2022-04-20,2023-10-12,0,Current,Guarantee,1.37,LO04,Alberta
+LN00292,Retail trade,51500,6,9.11,2023-08-02,2024-01-29,2,1-30 DPD,Land,1.09,LO13,Quebec
+LN00293,Retail trade,18000,6,11.65,2022-01-09,2022-07-08,59,31-60 DPD,Invoice,0.68,LO06,Ontario
+LN00294,Professional services,135500,12,9.62,2022-04-10,2023-04-05,0,Current,Guarantee,1.42,LO12,British Columbia
+LN00295,Retail trade,97000,12,10.29,2023-01-27,2024-01-22,0,Current,Land,1.12,LO03,Alberta
+LN00296,Professional services,23500,6,9.98,2022-08-26,2023-02-22,0,Current,Equipment,0.91,LO11,Manitoba
+LN00297,Transportation & warehousing,37500,36,11.25,2023-09-16,2026-08-31,0,Current,Guarantee,0.94,LO03,Quebec
+LN00298,Agriculture,72000,24,9.25,2023-12-01,2025-11-20,0,Current,Invoice,1.07,LO10,British Columbia
+LN00299,Retail trade,175500,36,10.49,2023-05-25,2026-05-09,61,61-90 DPD,Guarantee,0.9,LO13,Ontario
+LN00300,Retail trade,96000,24,9.11,2022-10-30,2024-10-19,0,Current,Equipment,1.03,LO10,Quebec
+LN00301,Agriculture,25000,12,9.55,2023-04-17,2024-04-11,0,Current,Guarantee,0.95,LO08,Alberta
+LN00302,Manufacturing,172500,36,8.11,2023-01-08,2025-12-23,0,Current,Guarantee,1.49,LO14,British Columbia
+LN00303,Transportation & warehousing,32000,18,11.74,2023-10-02,2025-03-25,57,31-60 DPD,Invoice,0.92,LO05,Alberta
+LN00304,Retail trade,117500,6,11.77,2022-09-08,2023-03-07,6,1-30 DPD,None,0.48,LO14,Ontario
+LN00305,Agriculture,75000,36,10.52,2022-03-16,2025-02-28,17,1-30 DPD,Land,0.86,LO08,Alberta
+LN00306,Construction,165500,24,8.65,2022-07-04,2024-06-23,0,Current,Land,1.11,LO15,Quebec
+LN00307,Professional services,44500,18,9.39,2022-12-17,2024-06-09,0,Current,Invoice,0.97,LO08,Ontario
+LN00308,Construction,36500,24,7.47,2022-08-07,2024-07-27,0,Current,Guarantee,1.6,LO10,Ontario
+LN00309,Professional services,20500,18,6.78,2023-04-30,2024-10-21,0,Current,Land,1.54,LO11,Quebec
+LN00310,Agriculture,53500,12,10.53,2022-03-12,2023-03-07,31,31-60 DPD,Guarantee,1.0,LO05,Ontario
+LN00311,Transportation & warehousing,88000,24,10.99,2023-11-17,2025-11-06,56,31-60 DPD,Land,0.87,LO15,Quebec
+LN00312,Agriculture,176500,18,12.81,2022-12-24,2024-06-16,95,NPL (>90),Invoice,0.61,LO09,Alberta
+LN00313,Manufacturing,177000,24,11.45,2023-08-08,2025-07-28,57,31-60 DPD,None,0.37,LO12,Alberta
+LN00314,Construction,116500,18,8.61,2022-11-21,2024-05-14,0,Current,Land,1.3,LO08,Manitoba
+LN00315,Professional services,159500,6,8.19,2023-11-22,2024-05-20,0,Current,Land,1.13,LO14,Ontario
+LN00316,Manufacturing,119500,36,10.39,2022-08-12,2025-07-27,20,1-30 DPD,Equipment,1.16,LO09,Ontario
+LN00317,Manufacturing,114000,12,7.24,2022-07-15,2023-07-10,0,Current,Land,1.84,LO06,Ontario
+LN00318,Agriculture,165000,36,10.6,2022-05-08,2025-04-22,36,31-60 DPD,Invoice,1.01,LO08,Quebec
+LN00319,Professional services,70500,36,10.23,2022-12-10,2025-11-24,29,1-30 DPD,Invoice,1.13,LO09,British Columbia
+LN00320,Manufacturing,104000,24,10.06,2023-11-07,2025-10-27,0,Current,Invoice,1.27,LO12,British Columbia
+LN00321,Retail trade,182000,6,11.07,2022-01-17,2022-07-16,9,1-30 DPD,Invoice,0.81,LO10,British Columbia
+LN00322,Retail trade,119500,36,11.05,2022-02-03,2025-01-18,0,Current,Guarantee,0.71,LO04,Manitoba
+LN00323,Professional services,105500,6,8.31,2023-04-26,2023-10-23,0,Current,Invoice,1.65,LO14,Alberta
+LN00324,Transportation & warehousing,145500,24,11.38,2023-01-19,2025-01-08,77,61-90 DPD,Equipment,0.55,LO05,Alberta
+LN00325,Agriculture,63000,24,10.12,2022-01-05,2023-12-26,45,31-60 DPD,Land,0.86,LO13,Quebec
+LN00326,Construction,152000,36,12.57,2022-06-24,2025-06-08,40,31-60 DPD,None,0.16,LO04,British Columbia
+LN00327,Professional services,43000,24,8.48,2023-08-15,2025-08-04,0,Current,Invoice,1.1,LO03,Quebec
+LN00328,Agriculture,99500,24,10.69,2022-05-10,2024-04-29,26,1-30 DPD,None,1.06,LO10,Ontario
+LN00329,Professional services,156000,18,9.42,2022-06-12,2023-12-04,0,Current,Land,1.11,LO01,Alberta
+LN00330,Construction,36500,36,13.35,2022-03-22,2025-03-06,175,NPL (>90),None,0.15,LO12,Alberta
+LN00331,Manufacturing,180000,18,12.3,2023-10-31,2025-04-23,67,61-90 DPD,None,0.23,LO12,Ontario
+LN00332,Professional services,143000,6,7.71,2022-05-28,2022-11-24,0,Current,Land,1.4,LO10,Ontario
+LN00333,Retail trade,29000,36,11.49,2022-05-26,2025-05-10,21,1-30 DPD,Land,0.46,LO14,Quebec
+LN00334,Manufacturing,77500,24,7.53,2023-02-28,2025-02-17,0,Current,Land,1.62,LO11,Ontario
+LN00335,Manufacturing,129000,24,8.2,2023-10-11,2025-09-30,0,Current,Equipment,1.47,LO15,Manitoba
+LN00336,Transportation & warehousing,108000,36,9.46,2022-05-01,2025-04-15,0,Current,Guarantee,1.16,LO08,British Columbia
+LN00337,Construction,104500,12,11.78,2022-09-18,2023-09-13,0,Current,Land,0.76,LO09,British Columbia
+LN00338,Manufacturing,47000,18,7.32,2022-08-11,2024-02-02,0,Current,Land,1.58,LO04,Ontario
+LN00339,Transportation & warehousing,129500,12,12.43,2023-05-09,2024-05-03,73,61-90 DPD,None,0.29,LO08,Alberta
+LN00340,Professional services,85500,24,9.02,2022-09-14,2024-09-03,0,Current,Equipment,1.58,LO14,Alberta
+LN00341,Agriculture,176500,6,11.98,2023-08-25,2024-02-21,34,31-60 DPD,Invoice,0.82,LO08,Quebec
+LN00342,Construction,139000,18,11.51,2023-09-14,2025-03-07,24,1-30 DPD,Invoice,0.61,LO10,Quebec
+LN00343,Agriculture,165500,6,7.77,2022-02-04,2022-08-03,0,Current,Invoice,1.71,LO14,Alberta
+LN00344,Construction,71000,6,11.29,2022-11-27,2023-05-26,28,1-30 DPD,Invoice,0.9,LO06,Manitoba
+LN00345,Retail trade,47000,18,10.34,2022-11-18,2024-05-11,8,1-30 DPD,Land,1.54,LO04,Quebec
+LN00346,Construction,147500,12,11.47,2023-01-30,2024-01-25,18,1-30 DPD,Guarantee,0.43,LO09,Manitoba
+LN00347,Retail trade,107000,36,12.69,2023-11-19,2026-11-03,53,31-60 DPD,Invoice,0.44,LO07,Quebec
+LN00348,Agriculture,44000,6,11.39,2023-05-26,2023-11-22,38,31-60 DPD,Land,0.94,LO07,Ontario
+LN00349,Retail trade,88000,36,11.51,2023-01-28,2026-01-12,0,Current,Land,0.84,LO14,British Columbia
+LN00350,Retail trade,167500,18,10.1,2023-02-17,2024-08-10,3,1-30 DPD,Land,0.86,LO15,British Columbia
+LN00351,Retail trade,68000,6,9.09,2022-04-08,2022-10-05,8,1-30 DPD,Guarantee,1.16,LO13,Quebec
+LN00352,Professional services,23500,18,9.04,2022-02-18,2023-08-12,0,Current,Invoice,1.36,LO08,Quebec
+LN00353,Transportation & warehousing,177500,6,10.83,2023-09-25,2024-03-23,32,31-60 DPD,Land,0.9,LO06,Ontario
+LN00354,Transportation & warehousing,135000,12,8.2,2022-07-15,2023-07-10,0,Current,Guarantee,1.53,LO09,Ontario
+LN00355,Transportation & warehousing,160000,18,10.6,2022-02-14,2023-08-08,3,1-30 DPD,Land,0.89,LO12,British Columbia
+LN00356,Professional services,56500,12,8.21,2023-08-21,2024-08-15,0,Current,Invoice,1.51,LO06,Ontario
+LN00357,Manufacturing,140000,24,8.52,2023-11-16,2025-11-05,0,Current,None,1.33,LO08,Quebec
+LN00358,Agriculture,143500,24,9.87,2022-09-28,2024-09-17,0,Current,Guarantee,1.13,LO06,British Columbia
+LN00359,Manufacturing,124000,12,8.27,2022-03-18,2023-03-13,0,Current,Land,1.17,LO08,Ontario
+LN00360,Professional services,42500,6,8.5,2023-08-28,2024-02-24,0,Current,None,1.26,LO06,Ontario
+LN00361,Agriculture,132500,12,9.81,2022-04-19,2023-04-14,13,1-30 DPD,Guarantee,1.24,LO08,Ontario
+LN00362,Construction,98500,24,10.69,2022-10-12,2024-10-01,12,1-30 DPD,Invoice,0.8,LO05,Ontario
+LN00363,Construction,122000,12,10.5,2022-04-20,2023-04-15,4,1-30 DPD,Invoice,1.04,LO01,Quebec
+LN00364,Transportation & warehousing,101500,18,10.75,2023-07-18,2025-01-08,53,31-60 DPD,Land,0.66,LO04,Manitoba
+LN00365,Professional services,97000,36,10.0,2023-03-28,2026-03-12,0,Current,Invoice,1.01,LO07,Manitoba
+LN00366,Agriculture,42500,12,11.09,2023-06-27,2024-06-21,0,Current,None,1.11,LO07,Ontario
+LN00367,Transportation & warehousing,18500,12,12.22,2022-08-13,2023-08-08,20,1-30 DPD,None,0.75,LO02,British Columbia
+LN00368,Retail trade,57500,36,12.49,2023-02-19,2026-02-03,60,31-60 DPD,Invoice,0.41,LO04,Alberta
+LN00369,Transportation & warehousing,56000,12,7.74,2022-07-28,2023-07-23,0,Current,None,1.37,LO01,Ontario
+LN00370,Manufacturing,97000,36,8.78,2022-11-09,2025-10-24,0,Current,Equipment,1.1,LO11,Ontario
+LN00371,Manufacturing,42000,24,8.27,2022-01-14,2024-01-04,0,Current,Land,1.48,LO05,Ontario
+LN00372,Manufacturing,127500,6,8.7,2023-05-01,2023-10-28,0,Current,None,1.43,LO14,Manitoba
+LN00373,Professional services,28500,6,8.27,2022-10-25,2023-04-23,0,Current,Equipment,1.51,LO13,Ontario
+LN00374,Retail trade,62500,18,13.03,2022-12-26,2024-06-18,59,31-60 DPD,None,0.5,LO08,Quebec
+LN00375,Agriculture,89000,18,11.61,2022-12-08,2024-05-31,106,NPL (>90),None,0.61,LO05,Alberta
+LN00376,Construction,136000,6,9.43,2023-02-25,2023-08-24,0,Current,Equipment,0.83,LO03,Quebec
+LN00377,Professional services,15000,36,10.92,2023-03-18,2026-03-02,20,1-30 DPD,Equipment,0.94,LO07,Alberta
+LN00378,Retail trade,177000,36,10.79,2023-04-06,2026-03-21,16,1-30 DPD,None,0.89,LO15,Alberta
+LN00379,Agriculture,163500,24,9.59,2022-10-10,2024-09-29,28,1-30 DPD,None,0.64,LO14,British Columbia
+LN00380,Retail trade,85000,24,8.52,2022-12-22,2024-12-11,0,Current,Guarantee,1.15,LO01,Quebec
+LN00381,Transportation & warehousing,35000,12,9.63,2022-10-24,2023-10-19,0,Current,Guarantee,1.2,LO02,Ontario
+LN00382,Agriculture,12500,6,8.01,2023-08-31,2024-02-27,0,Current,Land,1.61,LO05,Ontario
+LN00383,Professional services,71000,6,6.43,2022-05-22,2022-11-18,0,Current,None,2.0,LO13,British Columbia
+LN00384,Manufacturing,175000,18,9.24,2022-07-21,2024-01-12,0,Current,Invoice,1.26,LO02,Quebec
+LN00385,Manufacturing,15500,18,10.08,2023-11-26,2025-05-19,2,1-30 DPD,Land,1.02,LO15,Quebec
+LN00386,Construction,63500,36,12.14,2022-11-27,2025-11-11,86,61-90 DPD,None,0.3,LO13,Manitoba
+LN00387,Agriculture,33500,36,10.23,2022-11-09,2025-10-24,0,Current,Invoice,0.98,LO07,Ontario
+LN00388,Professional services,26500,36,12.24,2022-11-17,2025-11-01,38,31-60 DPD,None,0.37,LO12,Quebec
+LN00389,Professional services,71000,24,10.5,2023-02-25,2025-02-14,31,31-60 DPD,Land,1.12,LO07,Ontario
+LN00390,Manufacturing,116500,18,10.99,2023-08-18,2025-02-08,77,61-90 DPD,None,0.74,LO10,British Columbia
+LN00391,Construction,162000,6,9.76,2023-02-07,2023-08-06,0,Current,Invoice,1.08,LO14,British Columbia
+LN00392,Professional services,155000,6,9.0,2023-10-28,2024-04-25,0,Current,Land,1.11,LO02,Ontario
+LN00393,Agriculture,107500,18,10.28,2022-05-05,2023-10-27,0,Current,Land,1.04,LO09,Manitoba
+LN00394,Construction,138000,24,8.67,2023-11-23,2025-11-12,16,1-30 DPD,Equipment,1.31,LO05,Alberta
+LN00395,Retail trade,149500,36,11.28,2022-04-28,2025-04-12,83,61-90 DPD,Land,0.62,LO04,Manitoba
+LN00396,Retail trade,92000,36,8.34,2022-02-26,2025-02-10,0,Current,Land,1.59,LO08,Manitoba
+LN00397,Manufacturing,155500,36,10.74,2023-09-20,2026-09-04,62,61-90 DPD,None,0.92,LO03,Alberta
+LN00398,Retail trade,42000,12,9.29,2023-07-14,2024-07-08,0,Current,Equipment,1.67,LO05,Quebec
+LN00399,Transportation & warehousing,27000,36,10.03,2023-11-15,2026-10-30,0,Current,Land,1.26,LO14,Quebec
+LN00400,Manufacturing,14500,24,7.96,2023-02-03,2025-01-23,0,Current,Land,1.63,LO01,Alberta
+LN00401,Transportation & warehousing,164500,36,11.33,2022-12-30,2025-12-14,10,1-30 DPD,Invoice,0.61,LO03,Quebec
+LN00402,Construction,158000,36,9.35,2023-06-22,2026-06-06,0,Current,Invoice,0.83,LO03,Alberta
+LN00403,Manufacturing,70500,36,9.15,2022-05-24,2025-05-08,0,Current,Guarantee,1.16,LO02,Ontario
+LN00404,Transportation & warehousing,93500,24,9.85,2022-07-04,2024-06-23,22,1-30 DPD,None,0.73,LO09,Ontario
+LN00405,Transportation & warehousing,101000,12,9.26,2023-08-26,2024-08-20,46,31-60 DPD,None,1.15,LO02,Ontario
+LN00406,Retail trade,157500,12,7.67,2023-11-13,2024-11-07,0,Current,Land,1.55,LO11,Quebec
+LN00407,Agriculture,141500,12,10.37,2022-06-28,2023-06-23,27,1-30 DPD,Invoice,0.91,LO01,British Columbia
+LN00408,Agriculture,29500,6,10.95,2023-01-19,2023-07-18,70,61-90 DPD,None,1.02,LO01,Manitoba
+LN00409,Agriculture,28500,24,9.75,2023-10-15,2025-10-04,0,Current,Guarantee,0.79,LO11,Quebec
+LN00410,Manufacturing,44500,12,7.62,2023-06-26,2024-06-20,0,Current,Equipment,1.68,LO01,Alberta
+LN00411,Transportation & warehousing,26500,6,11.18,2022-01-06,2022-07-05,32,31-60 DPD,None,0.99,LO06,Manitoba
+LN00412,Transportation & warehousing,136000,36,10.62,2022-08-01,2025-07-16,66,61-90 DPD,None,1.09,LO09,Quebec
+LN00413,Agriculture,117000,36,10.27,2022-03-10,2025-02-22,0,Current,Land,1.07,LO03,Ontario
+LN00414,Construction,61500,6,11.04,2022-02-22,2022-08-21,37,31-60 DPD,None,0.49,LO01,Manitoba
+LN00415,Agriculture,169500,18,9.96,2023-01-02,2024-06-25,0,Current,Guarantee,1.18,LO10,Manitoba
+LN00416,Construction,171000,36,11.34,2023-09-26,2026-09-10,44,31-60 DPD,Land,0.7,LO15,Ontario
+LN00417,Construction,91500,18,7.69,2022-02-03,2023-07-28,0,Current,Guarantee,1.49,LO01,Manitoba
+LN00418,Manufacturing,104500,18,6.13,2023-11-11,2025-05-04,0,Current,Land,1.74,LO02,Ontario
+LN00419,Construction,166500,6,10.93,2022-03-14,2022-09-10,50,31-60 DPD,None,0.48,LO15,British Columbia
+LN00420,Professional services,174000,18,7.39,2022-04-17,2023-10-09,0,Current,Land,1.54,LO04,Alberta
+LN00421,Agriculture,84500,18,7.72,2022-08-22,2024-02-13,15,1-30 DPD,Equipment,1.47,LO14,Quebec
+LN00422,Transportation & warehousing,128000,6,11.54,2022-02-23,2022-08-22,22,1-30 DPD,Invoice,0.72,LO12,Manitoba
+LN00423,Professional services,131500,36,9.59,2023-03-25,2026-03-09,0,Current,Guarantee,1.1,LO06,Quebec
+LN00424,Retail trade,51000,6,11.06,2022-08-21,2023-02-17,28,1-30 DPD,Invoice,0.99,LO15,Ontario
+LN00425,Construction,108000,6,10.6,2022-09-13,2023-03-12,28,1-30 DPD,Equipment,0.95,LO05,Ontario
+LN00426,Agriculture,70500,12,9.59,2022-05-13,2023-05-08,22,1-30 DPD,None,0.95,LO11,Ontario
+LN00427,Transportation & warehousing,23000,18,11.52,2022-07-30,2024-01-21,19,1-30 DPD,Guarantee,1.16,LO14,Manitoba
+LN00428,Professional services,133500,18,6.91,2022-10-27,2024-04-19,0,Current,Equipment,1.88,LO05,Quebec
+LN00429,Transportation & warehousing,103500,6,8.4,2023-02-25,2023-08-24,0,Current,Guarantee,1.61,LO15,Manitoba
+LN00430,Construction,49500,36,12.31,2023-01-17,2026-01-01,28,1-30 DPD,Equipment,0.45,LO04,Alberta
+LN00431,Professional services,122500,24,7.22,2022-01-22,2024-01-12,0,Current,Guarantee,1.37,LO05,Ontario
+LN00432,Retail trade,20000,36,11.18,2022-01-20,2025-01-04,30,1-30 DPD,Invoice,0.32,LO01,Manitoba
+LN00433,Manufacturing,75500,24,7.79,2023-11-08,2025-10-28,0,Current,Guarantee,1.37,LO15,British Columbia
+LN00434,Agriculture,169500,18,10.28,2023-08-29,2025-02-19,0,Current,Equipment,0.9,LO06,Alberta
+LN00435,Construction,85000,24,11.38,2022-02-28,2024-02-18,26,1-30 DPD,Guarantee,0.8,LO09,Quebec
+LN00436,Professional services,109000,36,9.51,2022-09-24,2025-09-08,20,1-30 DPD,Equipment,1.26,LO08,Alberta
+LN00437,Manufacturing,32500,6,10.75,2023-11-30,2024-05-28,4,1-30 DPD,Equipment,0.71,LO05,Quebec
+LN00438,Construction,78000,36,11.02,2022-10-03,2025-09-17,69,61-90 DPD,Guarantee,0.85,LO13,Ontario
+LN00439,Construction,12000,18,10.75,2022-11-25,2024-05-18,56,31-60 DPD,Invoice,0.95,LO08,Ontario
+LN00440,Professional services,16000,18,8.04,2023-07-24,2025-01-14,0,Current,Equipment,1.62,LO10,Ontario
+LN00441,Agriculture,165000,36,8.73,2022-03-07,2025-02-19,0,Current,Guarantee,1.05,LO08,Manitoba
+LN00442,Manufacturing,119000,12,8.55,2023-11-03,2024-10-28,21,1-30 DPD,Land,1.61,LO11,Ontario
+LN00443,Manufacturing,128500,24,8.65,2022-02-12,2024-02-02,0,Current,Guarantee,1.5,LO01,Alberta
+LN00444,Agriculture,103500,6,9.35,2022-12-25,2023-06-23,0,Current,Land,1.46,LO08,Ontario
+LN00445,Construction,23000,12,9.85,2023-01-16,2024-01-11,0,Current,Land,1.14,LO15,Quebec
+LN00446,Manufacturing,14000,36,12.58,2022-12-10,2025-11-24,44,31-60 DPD,Invoice,0.53,LO06,Quebec
+LN00447,Agriculture,117500,12,8.99,2022-10-25,2023-10-20,0,Current,Land,1.38,LO04,Ontario
+LN00448,Agriculture,98000,36,9.3,2022-12-19,2025-12-03,0,Current,Equipment,1.19,LO10,Ontario
+LN00449,Transportation & warehousing,135500,24,7.64,2023-10-27,2025-10-16,0,Current,Equipment,1.44,LO10,Alberta
+LN00450,Construction,137000,36,9.59,2023-06-25,2026-06-09,22,1-30 DPD,Land,0.98,LO11,British Columbia
+LN00451,Construction,86000,18,9.4,2023-08-13,2025-02-03,0,Current,Equipment,1.2,LO06,Manitoba
+LN00452,Professional services,64500,6,8.72,2023-04-01,2023-09-28,0,Current,Invoice,1.23,LO06,British Columbia
+LN00453,Construction,23000,18,7.32,2023-09-12,2025-03-05,0,Current,Equipment,1.31,LO14,Manitoba
+LN00454,Construction,52000,24,11.94,2023-11-13,2025-11-02,113,NPL (>90),Equipment,0.52,LO13,Quebec
+LN00455,Agriculture,64000,6,8.99,2023-06-02,2023-11-29,0,Current,Equipment,1.52,LO15,Quebec
+LN00456,Retail trade,38500,24,9.83,2023-07-22,2025-07-11,0,Current,Invoice,0.95,LO03,Ontario
+LN00457,Retail trade,154000,6,11.51,2022-03-16,2022-09-12,22,1-30 DPD,Invoice,0.69,LO06,Manitoba
+LN00458,Professional services,130500,12,11.09,2022-05-02,2023-04-27,58,31-60 DPD,Guarantee,0.41,LO15,Quebec
+LN00459,Construction,115000,6,13.25,2022-02-16,2022-08-15,77,61-90 DPD,Invoice,0.15,LO11,Quebec
+LN00460,Transportation & warehousing,154500,18,12.41,2022-05-18,2023-11-09,91,NPL (>90),Equipment,0.71,LO10,Ontario
+LN00461,Construction,24500,6,8.81,2023-01-14,2023-07-13,0,Current,Guarantee,1.73,LO09,Alberta
+LN00462,Construction,58000,6,11.58,2023-05-21,2023-11-17,59,31-60 DPD,Guarantee,0.46,LO09,British Columbia
+LN00463,Construction,98000,24,11.64,2023-01-29,2025-01-18,66,61-90 DPD,Equipment,0.62,LO12,Alberta
+LN00464,Manufacturing,84500,18,9.52,2023-09-23,2025-03-16,0,Current,Guarantee,1.44,LO05,Manitoba
+LN00465,Retail trade,59500,24,12.16,2022-06-23,2024-06-12,0,Current,None,0.55,LO15,Manitoba
+LN00466,Transportation & warehousing,58000,6,11.02,2023-06-05,2023-12-02,28,1-30 DPD,Equipment,0.75,LO15,Ontario
+LN00467,Construction,103000,12,11.58,2022-01-27,2023-01-22,68,61-90 DPD,None,0.73,LO08,British Columbia
+LN00468,Manufacturing,153500,18,9.58,2022-05-03,2023-10-25,0,Current,Invoice,1.27,LO08,Quebec
+LN00469,Retail trade,159500,18,10.46,2022-04-30,2023-10-22,0,Current,Equipment,1.35,LO06,Manitoba
+LN00470,Construction,68000,24,10.55,2023-06-10,2025-05-30,17,1-30 DPD,Land,0.93,LO06,Ontario
+LN00471,Professional services,27000,36,8.05,2023-07-26,2026-07-10,0,Current,Land,1.7,LO11,Ontario
+LN00472,Manufacturing,33500,24,9.16,2022-08-14,2024-08-03,0,Current,Equipment,1.36,LO03,Quebec
+LN00473,Manufacturing,137000,18,8.47,2023-10-13,2025-04-05,0,Current,Equipment,1.31,LO02,Quebec
+LN00474,Construction,115500,12,11.09,2022-09-27,2023-09-22,59,31-60 DPD,None,0.45,LO10,Manitoba
+LN00475,Transportation & warehousing,70000,36,8.69,2022-07-04,2025-06-18,0,Current,Guarantee,1.32,LO08,Ontario
+LN00476,Transportation & warehousing,77500,18,9.88,2022-10-30,2024-04-22,0,Current,Land,1.4,LO15,Ontario
+LN00477,Agriculture,82500,24,8.49,2023-11-10,2025-10-30,0,Current,Guarantee,1.55,LO06,Alberta
+LN00478,Professional services,132000,24,10.68,2023-05-16,2025-05-05,28,1-30 DPD,None,0.87,LO04,Ontario
+LN00479,Agriculture,56000,12,11.0,2023-02-23,2024-02-18,27,1-30 DPD,Guarantee,0.91,LO07,Quebec
+LN00480,Professional services,83500,18,10.02,2022-10-02,2024-03-25,0,Current,Invoice,1.36,LO06,Alberta
+LN00481,Retail trade,63000,24,10.25,2022-06-20,2024-06-09,9,1-30 DPD,Land,0.72,LO10,British Columbia
+LN00482,Agriculture,32000,36,12.57,2022-01-22,2025-01-06,45,31-60 DPD,Invoice,0.43,LO12,Quebec
+LN00483,Agriculture,142500,36,8.64,2022-02-20,2025-02-04,0,Current,Equipment,1.52,LO14,British Columbia
+LN00484,Professional services,158500,12,10.25,2022-06-15,2023-06-10,1,1-30 DPD,Guarantee,1.28,LO04,British Columbia
+LN00485,Transportation & warehousing,53000,6,11.42,2022-01-21,2022-07-20,31,31-60 DPD,None,0.72,LO08,Ontario
+LN00486,Manufacturing,59000,6,7.1,2022-09-11,2023-03-10,0,Current,Land,1.94,LO02,Ontario
+LN00487,Professional services,123500,12,9.16,2022-10-04,2023-09-29,0,Current,None,1.15,LO13,Alberta
+LN00488,Professional services,13000,36,9.94,2022-06-05,2025-05-20,32,31-60 DPD,Land,0.69,LO13,Quebec
+LN00489,Manufacturing,154000,18,7.69,2023-03-12,2024-09-02,0,Current,Guarantee,1.3,LO02,Quebec
+LN00490,Transportation & warehousing,109500,24,10.3,2022-04-06,2024-03-26,12,1-30 DPD,Equipment,1.05,LO09,Quebec
+LN00491,Professional services,59000,36,10.02,2023-01-27,2026-01-11,0,Current,Invoice,1.13,LO13,British Columbia
+LN00492,Transportation & warehousing,28500,12,9.24,2022-01-26,2023-01-21,0,Current,Invoice,0.86,LO08,Quebec
+LN00493,Professional services,107500,18,8.37,2023-10-08,2025-03-31,16,1-30 DPD,Equipment,1.51,LO08,British Columbia
+LN00494,Manufacturing,24500,24,10.4,2023-04-30,2025-04-19,0,Current,None,0.91,LO10,Ontario
+LN00495,Manufacturing,20000,24,9.18,2022-11-15,2024-11-04,0,Current,Land,0.9,LO10,British Columbia
+LN00496,Professional services,160500,18,8.91,2023-07-30,2025-01-20,0,Current,Invoice,1.19,LO06,Alberta
+LN00497,Manufacturing,65500,24,10.33,2022-03-25,2024-03-14,20,1-30 DPD,Land,1.02,LO13,Ontario
+LN00498,Manufacturing,100000,6,10.34,2023-03-25,2023-09-21,1,1-30 DPD,Land,1.42,LO07,Quebec
+LN00499,Manufacturing,118000,36,8.42,2023-07-15,2026-06-29,0,Current,Land,1.68,LO05,Alberta
+LN00500,Transportation & warehousing,56500,18,9.76,2023-01-16,2024-07-09,11,1-30 DPD,None,0.91,LO03,Quebec
+LN00501,Construction,128500,36,12.26,2023-01-16,2025-12-31,99,NPL (>90),Invoice,0.65,LO06,Alberta
+LN00502,Transportation & warehousing,182500,12,12.51,2023-05-01,2024-04-25,15,1-30 DPD,Land,0.74,LO03,Manitoba
+LN00503,Professional services,21500,6,6.92,2022-07-12,2023-01-08,0,Current,Invoice,1.33,LO01,British Columbia
+LN00504,Professional services,113000,6,9.95,2023-07-27,2024-01-23,0,Current,Equipment,0.98,LO01,Manitoba
+LN00505,Agriculture,59000,24,8.69,2022-11-10,2024-10-30,2,1-30 DPD,Guarantee,1.27,LO11,Alberta
+LN00506,Manufacturing,23000,12,6.65,2022-08-10,2023-08-05,0,Current,Guarantee,1.9,LO10,Ontario
+LN00507,Manufacturing,148000,36,10.44,2023-01-28,2026-01-12,9,1-30 DPD,None,0.35,LO13,Alberta
+LN00508,Construction,125500,24,10.29,2022-01-03,2023-12-24,19,1-30 DPD,Equipment,0.96,LO02,Ontario
+LN00509,Construction,35000,12,8.55,2022-01-01,2022-12-27,0,Current,Land,1.04,LO13,Quebec
+LN00510,Professional services,125000,18,9.53,2022-05-01,2023-10-23,22,1-30 DPD,Equipment,1.02,LO07,Ontario
+LN00511,Professional services,132000,18,8.1,2023-06-19,2024-12-10,0,Current,None,1.29,LO03,Alberta
+LN00512,Agriculture,133000,24,8.73,2023-05-17,2025-05-06,0,Current,Guarantee,0.92,LO09,Quebec
+LN00513,Transportation & warehousing,70000,6,9.9,2023-04-23,2023-10-20,0,Current,Invoice,1.65,LO09,Manitoba
+LN00514,Professional services,74500,6,10.45,2023-01-05,2023-07-04,0,Current,None,1.03,LO10,Quebec
+LN00515,Agriculture,26000,18,9.83,2023-05-30,2024-11-20,40,31-60 DPD,Land,1.38,LO11,Quebec
+LN00516,Professional services,17500,18,7.47,2022-02-28,2023-08-22,0,Current,None,1.41,LO14,Alberta
+LN00517,Professional services,182500,24,8.81,2023-04-30,2025-04-19,0,Current,None,1.3,LO01,Quebec
+LN00518,Retail trade,116000,12,11.5,2022-07-01,2023-06-26,90,61-90 DPD,Equipment,0.71,LO14,Ontario
+LN00519,Retail trade,19500,6,11.47,2023-07-12,2024-01-08,78,61-90 DPD,None,0.47,LO06,Ontario
+LN00520,Transportation & warehousing,156500,18,11.29,2022-06-23,2023-12-15,99,NPL (>90),None,0.84,LO06,British Columbia
+LN00521,Retail trade,172500,24,10.95,2023-11-15,2025-11-04,34,31-60 DPD,None,0.8,LO05,Ontario
+LN00522,Manufacturing,86500,18,8.33,2023-06-02,2024-11-23,0,Current,Invoice,1.5,LO12,Ontario
+LN00523,Retail trade,63500,36,10.64,2022-12-16,2025-11-30,0,Current,Land,0.88,LO08,Ontario
+LN00524,Retail trade,169000,12,9.45,2022-07-10,2023-07-05,11,1-30 DPD,Guarantee,1.07,LO01,Ontario
+LN00525,Manufacturing,146500,12,8.84,2023-04-17,2024-04-11,0,Current,Equipment,1.36,LO11,Alberta
+LN00526,Manufacturing,139000,12,7.27,2023-01-24,2024-01-19,0,Current,Guarantee,1.64,LO03,British Columbia
+LN00527,Agriculture,81500,12,11.43,2022-07-24,2023-07-19,10,1-30 DPD,Invoice,0.26,LO08,Quebec
+LN00528,Construction,73000,36,9.29,2023-10-09,2026-09-23,14,1-30 DPD,Equipment,1.39,LO14,British Columbia
+LN00529,Professional services,36500,36,10.65,2023-03-21,2026-03-05,51,31-60 DPD,Guarantee,0.84,LO12,British Columbia
+LN00530,Construction,153500,18,9.08,2022-08-04,2024-01-26,0,Current,Guarantee,0.93,LO05,Ontario
+LN00531,Retail trade,99500,12,12.48,2023-04-24,2024-04-18,66,61-90 DPD,Invoice,0.54,LO15,Ontario
+LN00532,Agriculture,131000,18,10.15,2022-01-09,2023-07-03,0,Current,Equipment,1.66,LO06,Quebec
+LN00533,Transportation & warehousing,166000,12,8.7,2022-11-10,2023-11-05,0,Current,Land,1.06,LO10,Quebec
+LN00534,Construction,109500,24,11.49,2023-04-30,2025-04-19,65,61-90 DPD,Equipment,0.81,LO06,British Columbia
+LN00535,Agriculture,93500,24,11.87,2022-08-28,2024-08-17,91,NPL (>90),None,0.32,LO07,Ontario
+LN00536,Agriculture,175000,24,10.32,2022-06-17,2024-06-06,0,Current,None,1.17,LO05,British Columbia
+LN00537,Transportation & warehousing,173000,12,8.26,2023-08-05,2024-07-30,0,Current,Guarantee,0.99,LO01,Ontario
+LN00538,Agriculture,147000,12,10.11,2023-04-15,2024-04-09,30,1-30 DPD,Invoice,0.87,LO01,Alberta
+LN00539,Manufacturing,44500,12,9.83,2022-03-24,2023-03-19,10,1-30 DPD,Invoice,1.14,LO04,Manitoba
+LN00540,Transportation & warehousing,106000,18,7.23,2022-06-13,2023-12-05,0,Current,Guarantee,1.61,LO09,Alberta
+LN00541,Professional services,131000,24,9.72,2023-04-20,2025-04-09,0,Current,Land,1.28,LO06,Ontario
+LN00542,Manufacturing,79000,18,11.1,2023-11-22,2025-05-15,31,31-60 DPD,Invoice,0.5,LO09,Ontario
+LN00543,Agriculture,94500,36,12.43,2023-09-16,2026-08-31,44,31-60 DPD,Guarantee,0.71,LO14,Ontario
+LN00544,Construction,113500,24,12.03,2023-10-24,2025-10-13,159,NPL (>90),Equipment,0.4,LO04,Ontario
+LN00545,Manufacturing,62000,6,6.96,2023-11-01,2024-04-29,0,Current,Guarantee,1.59,LO14,Quebec
+LN00546,Retail trade,55000,24,12.03,2023-02-12,2025-02-01,116,NPL (>90),None,0.59,LO08,Ontario
+LN00547,Retail trade,69500,6,7.59,2023-02-19,2023-08-18,0,Current,Guarantee,1.73,LO09,Quebec
+LN00548,Transportation & warehousing,88500,24,12.25,2023-11-18,2025-11-07,53,31-60 DPD,Invoice,0.79,LO01,Quebec
+LN00549,Professional services,54500,6,7.56,2023-04-07,2023-10-04,0,Current,Guarantee,1.4,LO06,Ontario
+LN00550,Manufacturing,179500,36,8.34,2023-11-22,2026-11-06,0,Current,Land,1.74,LO06,Alberta
+LN00551,Construction,54500,36,10.61,2023-04-11,2026-03-26,102,NPL (>90),Land,0.84,LO08,Quebec
+LN00552,Agriculture,18500,36,10.37,2022-09-16,2025-08-31,0,Current,Invoice,1.07,LO05,Ontario
+LN00553,Retail trade,104000,12,9.59,2023-03-04,2024-02-27,0,Current,Land,0.99,LO06,Alberta
+LN00554,Retail trade,102000,24,12.57,2022-03-28,2024-03-17,97,NPL (>90),None,0.15,LO12,Manitoba
+LN00555,Transportation & warehousing,95500,18,10.9,2023-04-15,2024-10-06,0,Current,None,0.6,LO01,Ontario
+LN00556,Agriculture,74500,12,10.3,2023-10-16,2024-10-10,29,1-30 DPD,Land,0.97,LO12,Ontario
+LN00557,Agriculture,170500,18,10.79,2022-01-23,2023-07-17,38,31-60 DPD,Land,1.01,LO07,Ontario
+LN00558,Manufacturing,108500,18,8.23,2023-07-07,2024-12-28,0,Current,Equipment,1.44,LO01,Quebec
+LN00559,Construction,91500,24,12.2,2022-07-10,2024-06-29,114,NPL (>90),None,0.48,LO03,Alberta
+LN00560,Agriculture,57000,24,10.54,2023-03-01,2025-02-18,17,1-30 DPD,Equipment,1.26,LO08,British Columbia
+LN00561,Transportation & warehousing,65000,12,12.32,2022-11-29,2023-11-24,97,NPL (>90),None,0.15,LO10,Quebec
+LN00562,Transportation & warehousing,113000,36,9.59,2023-07-26,2026-07-10,16,1-30 DPD,Land,1.17,LO06,Quebec
+LN00563,Professional services,36000,24,9.02,2022-06-24,2024-06-13,0,Current,Land,1.24,LO10,Ontario
+LN00564,Transportation & warehousing,94000,18,10.65,2023-06-27,2024-12-18,50,31-60 DPD,Guarantee,0.98,LO13,Quebec
+LN00565,Professional services,126500,6,8.46,2023-08-22,2024-02-18,0,Current,Invoice,1.35,LO13,Ontario
+LN00566,Agriculture,106000,24,11.38,2023-01-20,2025-01-09,24,1-30 DPD,None,0.52,LO10,Ontario
+LN00567,Retail trade,26500,12,11.09,2022-04-24,2023-04-19,0,Current,Equipment,1.03,LO12,Quebec
+LN00568,Construction,80500,12,10.42,2023-09-06,2024-08-31,78,61-90 DPD,Guarantee,0.86,LO06,Alberta
+LN00569,Retail trade,125000,18,12.36,2023-06-30,2024-12-21,18,1-30 DPD,Invoice,0.9,LO05,Ontario
+LN00570,Professional services,37000,12,8.54,2022-01-04,2022-12-30,0,Current,None,1.5,LO13,Quebec
+LN00571,Transportation & warehousing,39500,6,10.06,2023-10-31,2024-04-28,0,Current,Equipment,1.25,LO10,Manitoba
+LN00572,Manufacturing,115500,36,11.17,2023-09-06,2026-08-21,25,1-30 DPD,None,0.83,LO01,Quebec
+LN00573,Construction,53000,36,11.98,2023-12-02,2026-11-16,33,31-60 DPD,None,0.48,LO11,Quebec
+LN00574,Construction,98500,12,10.69,2022-06-15,2023-06-10,58,31-60 DPD,Invoice,0.68,LO14,Manitoba
+LN00575,Manufacturing,91500,12,10.47,2022-10-28,2023-10-23,35,31-60 DPD,None,0.57,LO04,Alberta
+LN00576,Construction,86500,12,10.74,2023-04-18,2024-04-12,0,Current,None,0.71,LO13,British Columbia
+LN00577,Agriculture,161000,12,11.01,2022-03-13,2023-03-08,6,1-30 DPD,Invoice,0.87,LO08,Ontario
+LN00578,Professional services,22000,24,7.88,2023-07-05,2025-06-24,0,Current,Land,1.77,LO10,Alberta
+LN00579,Construction,133500,24,8.82,2022-03-03,2024-02-21,20,1-30 DPD,Land,1.09,LO12,British Columbia
+LN00580,Transportation & warehousing,122500,24,9.22,2022-04-17,2024-04-06,0,Current,Equipment,1.27,LO13,Ontario
+LN00581,Construction,140500,6,9.69,2023-01-11,2023-07-10,0,Current,Equipment,0.96,LO04,Quebec
+LN00582,Retail trade,67000,6,11.14,2023-05-19,2023-11-15,75,61-90 DPD,Equipment,0.62,LO06,Quebec
+LN00583,Transportation & warehousing,87000,24,11.72,2023-08-05,2025-07-25,38,31-60 DPD,Equipment,0.68,LO05,Ontario
+LN00584,Manufacturing,162000,36,7.3,2022-10-26,2025-10-10,0,Current,Guarantee,1.51,LO03,British Columbia
+LN00585,Transportation & warehousing,62500,24,9.25,2022-06-08,2024-05-28,0,Current,Equipment,1.27,LO14,Quebec
+LN00586,Agriculture,120000,6,8.37,2023-08-21,2024-02-17,0,Current,Guarantee,1.42,LO01,Quebec
+LN00587,Agriculture,134500,36,8.56,2023-09-26,2026-09-10,0,Current,Equipment,1.74,LO09,Quebec
+LN00588,Construction,74500,24,11.55,2023-06-22,2025-06-11,59,31-60 DPD,Invoice,0.72,LO15,Quebec
+LN00589,Retail trade,125500,6,9.44,2022-11-13,2023-05-12,9,1-30 DPD,None,1.07,LO13,Ontario
+LN00590,Transportation & warehousing,44000,24,9.53,2023-10-16,2025-10-05,0,Current,Land,1.3,LO14,Ontario
+LN00591,Construction,165500,12,11.05,2022-02-03,2023-01-29,12,1-30 DPD,Guarantee,0.58,LO05,British Columbia
+LN00592,Construction,156500,36,12.22,2022-02-27,2025-02-11,85,61-90 DPD,Invoice,0.47,LO04,Manitoba
+LN00593,Agriculture,148000,12,7.76,2023-10-29,2024-10-23,0,Current,Invoice,1.37,LO10,Quebec
+LN00594,Construction,58000,12,11.07,2022-03-07,2023-03-02,30,1-30 DPD,Equipment,1.03,LO01,Manitoba
+LN00595,Manufacturing,52000,36,8.17,2022-04-11,2025-03-26,0,Current,Guarantee,1.27,LO02,Manitoba
+LN00596,Professional services,30000,6,9.16,2022-04-13,2022-10-10,0,Current,None,1.1,LO10,Quebec
+LN00597,Agriculture,108500,36,11.09,2022-04-25,2025-04-09,6,1-30 DPD,Equipment,0.88,LO11,British Columbia
+LN00598,Professional services,181500,18,7.63,2023-09-08,2025-03-01,0,Current,Guarantee,1.72,LO03,Quebec
+LN00599,Construction,93500,18,8.22,2022-11-03,2024-04-26,0,Current,Guarantee,1.27,LO09,British Columbia
+LN00600,Agriculture,118000,6,9.62,2022-07-06,2023-01-02,0,Current,Invoice,1.1,LO15,British Columbia
+LN00601,Professional services,95500,12,9.59,2023-03-19,2024-03-13,22,1-30 DPD,Invoice,0.84,LO11,British Columbia
+LN00602,Manufacturing,43500,6,9.09,2022-08-07,2023-02-03,0,Current,Guarantee,1.33,LO06,Ontario
+LN00603,Construction,91500,18,11.66,2022-08-04,2024-01-26,66,61-90 DPD,Equipment,0.75,LO07,Ontario
+LN00604,Manufacturing,157500,36,11.52,2022-11-30,2025-11-14,69,61-90 DPD,None,0.89,LO11,British Columbia
+LN00605,Professional services,145000,18,8.21,2022-09-27,2024-03-20,0,Current,Guarantee,1.3,LO05,Quebec
+LN00606,Transportation & warehousing,71000,18,11.47,2023-03-12,2024-09-02,74,61-90 DPD,None,0.66,LO07,Ontario
+LN00607,Professional services,19500,24,9.52,2022-05-24,2024-05-13,0,Current,Land,1.24,LO04,Manitoba
+LN00608,Transportation & warehousing,134000,18,11.4,2022-01-25,2023-07-19,56,31-60 DPD,Guarantee,0.16,LO07,Quebec
+LN00609,Construction,107000,12,9.86,2023-09-25,2024-09-19,0,Current,Land,0.96,LO03,Quebec
+LN00610,Transportation & warehousing,93000,36,11.44,2022-02-17,2025-02-01,14,1-30 DPD,Invoice,0.75,LO15,Alberta
+LN00611,Professional services,53000,36,8.66,2022-03-02,2025-02-14,0,Current,Guarantee,1.59,LO08,Quebec
+LN00612,Retail trade,91500,6,9.89,2023-02-28,2023-08-27,0,Current,Equipment,0.73,LO10,Quebec
+LN00613,Construction,44500,6,11.62,2022-12-02,2023-05-31,14,1-30 DPD,Guarantee,0.92,LO14,Quebec
+LN00614,Transportation & warehousing,13500,6,9.56,2022-11-18,2023-05-17,0,Current,Guarantee,1.07,LO08,Alberta
+LN00615,Manufacturing,41500,24,10.67,2023-01-06,2024-12-26,0,Current,Guarantee,0.97,LO12,Ontario
+LN00616,Manufacturing,30500,24,7.16,2023-05-14,2025-05-03,0,Current,Land,2.0,LO01,British Columbia
+LN00617,Agriculture,12500,24,12.29,2023-06-01,2025-05-21,43,31-60 DPD,None,0.49,LO10,Quebec
+LN00618,Transportation & warehousing,21500,6,9.26,2023-07-26,2024-01-22,0,Current,Land,1.46,LO13,British Columbia
+LN00619,Retail trade,109000,24,10.98,2022-07-15,2024-07-04,31,31-60 DPD,Invoice,0.62,LO08,Quebec
+LN00620,Transportation & warehousing,36000,18,11.77,2023-10-26,2025-04-18,47,31-60 DPD,None,0.84,LO09,Ontario
+LN00621,Transportation & warehousing,138000,24,10.41,2023-02-16,2025-02-05,51,31-60 DPD,Invoice,1.13,LO04,Quebec
+LN00622,Professional services,36000,12,10.05,2022-12-01,2023-11-26,0,Current,None,1.32,LO11,Manitoba
+LN00623,Construction,170000,36,11.22,2022-06-01,2025-05-16,0,Current,Land,0.87,LO14,Ontario
+LN00624,Manufacturing,103500,6,11.79,2022-11-19,2023-05-18,36,31-60 DPD,Equipment,0.38,LO04,Quebec
+LN00625,Manufacturing,83000,18,11.12,2022-08-11,2024-02-02,0,Current,Invoice,0.65,LO07,Ontario
+LN00626,Professional services,160000,12,8.6,2023-04-03,2024-03-28,0,Current,Invoice,0.95,LO04,Ontario
+LN00627,Professional services,112000,6,8.69,2022-06-29,2022-12-26,0,Current,None,1.39,LO13,Manitoba
+LN00628,Retail trade,172500,36,11.4,2022-11-21,2025-11-05,48,31-60 DPD,Invoice,0.58,LO02,Ontario
+LN00629,Construction,72000,18,12.29,2023-04-13,2024-10-04,54,31-60 DPD,Invoice,0.48,LO14,Ontario
+LN00630,Agriculture,72000,18,12.01,2023-03-21,2024-09-11,23,1-30 DPD,Guarantee,0.5,LO12,Ontario
+LN00631,Transportation & warehousing,121500,24,8.19,2022-01-17,2024-01-07,0,Current,Guarantee,1.47,LO14,Manitoba
+LN00632,Manufacturing,107500,12,8.36,2022-05-24,2023-05-19,0,Current,Invoice,1.3,LO01,British Columbia
+LN00633,Manufacturing,160000,18,8.4,2023-03-01,2024-08-22,0,Current,Equipment,1.65,LO03,Alberta
+LN00634,Transportation & warehousing,41000,6,10.1,2022-01-31,2022-07-30,39,31-60 DPD,Invoice,0.88,LO07,Alberta
+LN00635,Agriculture,167000,18,11.16,2022-01-30,2023-07-24,0,Current,Invoice,0.84,LO14,Manitoba
+LN00636,Professional services,18000,24,10.37,2023-06-22,2025-06-11,3,1-30 DPD,Equipment,1.22,LO01,Quebec
+LN00637,Manufacturing,25500,6,10.53,2023-05-03,2023-10-30,0,Current,None,0.89,LO14,British Columbia
+LN00638,Transportation & warehousing,10000,24,10.21,2022-09-21,2024-09-10,0,Current,Equipment,0.98,LO09,Quebec
+LN00639,Construction,125500,6,9.27,2023-08-08,2024-02-04,32,31-60 DPD,Equipment,0.96,LO03,Manitoba
+LN00640,Transportation & warehousing,24000,6,11.26,2022-10-17,2023-04-15,80,61-90 DPD,None,0.87,LO04,Quebec
+LN00641,Manufacturing,136000,18,10.34,2023-04-19,2024-10-10,1,1-30 DPD,None,1.24,LO05,Ontario
+LN00642,Manufacturing,66500,18,8.02,2023-08-17,2025-02-07,0,Current,Land,1.5,LO13,Quebec
+LN00643,Transportation & warehousing,18000,12,12.1,2022-01-15,2023-01-10,0,Current,Equipment,0.68,LO06,Ontario
+LN00644,Construction,93000,18,11.14,2023-08-15,2025-02-05,27,1-30 DPD,Invoice,0.93,LO04,Quebec
+LN00645,Construction,55500,24,10.16,2022-10-14,2024-10-03,59,31-60 DPD,Guarantee,0.87,LO15,Manitoba
+LN00646,Agriculture,69000,24,10.98,2023-04-13,2025-04-02,6,1-30 DPD,Land,1.07,LO06,Ontario
+LN00647,Construction,55500,18,11.22,2022-01-27,2023-07-21,31,31-60 DPD,Equipment,0.76,LO14,Ontario
+LN00648,Retail trade,105000,18,9.29,2022-12-22,2024-06-14,0,Current,Guarantee,1.01,LO09,Ontario
+LN00649,Construction,41500,36,11.12,2023-11-28,2026-11-12,0,Current,Guarantee,0.87,LO13,Manitoba
+LN00650,Construction,158500,36,11.91,2023-06-30,2026-06-14,21,1-30 DPD,Guarantee,0.61,LO12,British Columbia
+LN00651,Manufacturing,74500,6,6.83,2023-10-13,2024-04-10,0,Current,Equipment,2.0,LO10,Quebec
+LN00652,Manufacturing,58000,24,9.18,2023-06-19,2025-06-08,0,Current,Invoice,1.19,LO08,Quebec
+LN00653,Manufacturing,135000,18,7.22,2022-09-15,2024-03-08,0,Current,Equipment,1.4,LO10,British Columbia
+LN00654,Retail trade,20000,24,9.64,2023-05-08,2025-04-27,0,Current,Equipment,0.9,LO13,Manitoba
+LN00655,Professional services,146000,24,9.45,2022-07-18,2024-07-07,0,Current,Equipment,1.17,LO05,Manitoba
+LN00656,Professional services,31000,36,10.73,2022-06-05,2025-05-20,24,1-30 DPD,Equipment,0.91,LO11,Quebec
+LN00657,Agriculture,11500,6,10.19,2023-06-21,2023-12-18,0,Current,Invoice,1.12,LO08,Quebec
+LN00658,Retail trade,103500,36,11.49,2022-03-14,2025-02-26,0,Current,Guarantee,0.75,LO01,Quebec
+LN00659,Agriculture,29500,24,9.63,2022-06-22,2024-06-11,0,Current,Invoice,1.34,LO04,British Columbia
+LN00660,Retail trade,25000,36,11.25,2023-01-07,2025-12-22,30,1-30 DPD,Equipment,0.81,LO11,Quebec
+LN00661,Transportation & warehousing,176500,24,10.53,2022-04-18,2024-04-07,0,Current,Guarantee,0.98,LO11,British Columbia
+LN00662,Agriculture,82500,18,7.97,2022-03-27,2023-09-18,0,Current,Land,1.2,LO13,Quebec
+LN00663,Manufacturing,111000,12,10.5,2023-11-13,2024-11-07,0,Current,Invoice,1.01,LO14,British Columbia
+LN00664,Professional services,115000,24,9.56,2022-04-21,2024-04-10,23,1-30 DPD,None,1.38,LO11,Ontario
+LN00665,Construction,26000,12,9.54,2023-11-20,2024-11-14,0,Current,Invoice,1.0,LO01,Quebec
+LN00666,Transportation & warehousing,146500,24,9.5,2023-06-20,2025-06-09,0,Current,Land,1.05,LO14,Ontario
+LN00667,Transportation & warehousing,138500,24,10.61,2022-01-27,2024-01-17,14,1-30 DPD,Guarantee,0.95,LO15,Quebec
+LN00668,Retail trade,136000,18,8.32,2023-12-01,2025-05-24,0,Current,Guarantee,1.41,LO04,Quebec
+LN00669,Professional services,145500,18,8.31,2023-10-13,2025-04-05,0,Current,Equipment,1.27,LO14,British Columbia
+LN00670,Transportation & warehousing,65500,24,11.31,2022-06-26,2024-06-15,57,31-60 DPD,Invoice,0.91,LO06,Quebec
+LN00671,Construction,103000,12,11.5,2022-11-10,2023-11-05,57,31-60 DPD,Invoice,0.72,LO08,Alberta
+LN00672,Manufacturing,141000,12,8.19,2023-05-13,2024-05-07,0,Current,Guarantee,1.8,LO08,Quebec
+LN00673,Manufacturing,176000,18,11.08,2022-07-14,2024-01-05,24,1-30 DPD,None,0.81,LO09,British Columbia
+LN00674,Manufacturing,78500,6,9.03,2022-04-03,2022-09-30,0,Current,None,1.14,LO11,Quebec
+LN00675,Agriculture,35000,18,7.87,2023-02-11,2024-08-04,0,Current,Guarantee,1.45,LO02,Quebec
+LN00676,Manufacturing,86500,6,9.5,2022-06-08,2022-12-05,0,Current,Guarantee,1.28,LO04,Ontario
+LN00677,Transportation & warehousing,180000,12,9.38,2023-03-27,2024-03-21,0,Current,Land,1.21,LO01,Ontario
+LN00678,Construction,93500,24,11.43,2023-07-19,2025-07-08,70,61-90 DPD,None,0.89,LO03,Ontario
+LN00679,Construction,110500,36,12.16,2023-02-01,2026-01-16,21,1-30 DPD,Guarantee,0.49,LO05,Quebec
+LN00680,Agriculture,73000,12,7.85,2023-01-01,2023-12-27,0,Current,Land,1.45,LO03,Quebec
+LN00681,Transportation & warehousing,52500,36,11.24,2022-04-09,2025-03-24,67,61-90 DPD,None,0.75,LO09,Quebec
+LN00682,Retail trade,149500,36,12.51,2022-12-23,2025-12-07,0,Current,None,0.41,LO04,Quebec
+LN00683,Agriculture,109500,6,9.74,2023-03-25,2023-09-21,0,Current,Equipment,1.02,LO08,British Columbia
+LN00684,Transportation & warehousing,19500,18,10.29,2022-06-01,2023-11-23,0,Current,Land,0.85,LO02,Alberta
+LN00685,Agriculture,108500,6,9.91,2023-05-18,2023-11-14,32,31-60 DPD,Equipment,1.25,LO04,Alberta
+LN00686,Professional services,63500,18,7.48,2023-08-07,2025-01-28,0,Current,None,1.48,LO03,Ontario
+LN00687,Construction,179500,36,11.55,2022-01-07,2024-12-22,21,1-30 DPD,Guarantee,1.05,LO13,Ontario
+LN00688,Construction,21000,24,11.81,2022-07-19,2024-07-08,78,61-90 DPD,Equipment,0.62,LO13,Ontario
+LN00689,Manufacturing,154500,6,9.52,2023-05-22,2023-11-18,0,Current,Land,0.84,LO10,Alberta
+LN00690,Transportation & warehousing,77000,24,8.99,2023-05-01,2025-04-20,0,Current,Equipment,0.95,LO03,Ontario
+LN00691,Agriculture,71500,24,9.08,2023-05-27,2025-05-16,0,Current,Equipment,1.18,LO11,Alberta
+LN00692,Retail trade,68500,6,13.07,2022-01-21,2022-07-20,119,NPL (>90),None,0.37,LO09,Ontario
+LN00693,Transportation & warehousing,74500,12,10.7,2023-06-26,2024-06-20,0,Current,Guarantee,0.75,LO15,British Columbia
+LN00694,Construction,74500,6,11.93,2022-07-13,2023-01-09,60,31-60 DPD,None,0.61,LO09,Manitoba
+LN00695,Agriculture,26500,12,9.6,2023-08-11,2024-08-05,0,Current,Equipment,0.99,LO14,Ontario
+LN00696,Professional services,15000,6,8.68,2022-05-04,2022-10-31,0,Current,Guarantee,1.28,LO02,Quebec
+LN00697,Transportation & warehousing,41000,36,11.93,2022-04-13,2025-03-28,37,31-60 DPD,None,0.28,LO08,Alberta
+LN00698,Construction,154000,24,11.92,2023-11-16,2025-11-05,96,NPL (>90),None,0.7,LO04,Quebec
+LN00699,Manufacturing,51000,24,9.39,2023-02-18,2025-02-07,0,Current,Invoice,1.16,LO15,Alberta
+LN00700,Transportation & warehousing,140500,36,9.22,2023-06-17,2026-06-01,0,Current,Land,1.38,LO06,British Columbia
+LN00701,Construction,109500,36,11.01,2023-07-14,2026-06-28,28,1-30 DPD,Equipment,1.0,LO04,Quebec
+LN00702,Transportation & warehousing,83500,24,8.95,2023-05-18,2025-05-07,0,Current,Land,0.94,LO06,British Columbia
+LN00703,Professional services,115500,18,10.54,2022-10-22,2024-04-14,12,1-30 DPD,None,0.85,LO04,Ontario
+LN00704,Agriculture,164500,36,9.06,2023-10-19,2026-10-03,0,Current,Guarantee,1.38,LO09,Ontario
+LN00705,Retail trade,177500,24,11.08,2023-07-05,2025-06-24,55,31-60 DPD,Invoice,0.71,LO09,Ontario
+LN00706,Manufacturing,98000,6,8.56,2022-04-12,2022-10-09,0,Current,Invoice,1.06,LO15,Manitoba
+LN00707,Transportation & warehousing,65500,12,12.1,2023-08-08,2024-08-02,0,Current,Invoice,0.71,LO12,Ontario
+LN00708,Agriculture,10500,12,10.82,2022-12-05,2023-11-30,58,31-60 DPD,Equipment,1.03,LO14,Manitoba
+LN00709,Agriculture,168500,24,9.98,2022-05-26,2024-05-15,43,31-60 DPD,Guarantee,0.86,LO07,Alberta
+LN00710,Construction,133000,18,11.15,2023-11-01,2025-04-24,0,Current,Guarantee,0.89,LO01,Quebec
+LN00711,Professional services,75000,12,10.97,2023-05-15,2024-05-09,0,Current,Invoice,1.16,LO13,Quebec
+LN00712,Manufacturing,124500,12,9.9,2022-04-28,2023-04-23,14,1-30 DPD,Land,1.17,LO13,Quebec
+LN00713,Retail trade,41500,18,12.08,2022-09-20,2024-03-13,47,31-60 DPD,Invoice,0.54,LO05,Quebec
+LN00714,Construction,55000,6,10.47,2022-07-26,2023-01-22,23,1-30 DPD,Land,1.09,LO08,Manitoba
+LN00715,Manufacturing,99500,6,9.3,2022-04-22,2022-10-19,0,Current,Invoice,1.11,LO13,Alberta
+LN00716,Retail trade,51500,36,11.07,2022-05-27,2025-05-11,26,1-30 DPD,Invoice,0.96,LO01,Alberta
+LN00717,Construction,142500,12,10.69,2022-11-22,2023-11-17,59,31-60 DPD,Equipment,1.06,LO05,Manitoba
+LN00718,Agriculture,90000,6,7.94,2022-06-06,2022-12-03,0,Current,Guarantee,1.5,LO04,Manitoba
+LN00719,Transportation & warehousing,43500,24,12.13,2023-03-28,2025-03-17,122,NPL (>90),None,0.28,LO03,Manitoba
+LN00720,Construction,177000,6,7.99,2022-03-08,2022-09-04,0,Current,Invoice,1.42,LO01,British Columbia
+LN00721,Transportation & warehousing,39000,18,10.35,2022-05-27,2023-11-18,55,31-60 DPD,Land,1.16,LO10,Ontario
+LN00722,Professional services,143000,6,8.38,2023-10-06,2024-04-03,0,Current,Land,1.43,LO02,Ontario
+LN00723,Transportation & warehousing,152500,24,12.16,2023-10-23,2025-10-12,60,31-60 DPD,Invoice,0.15,LO12,Manitoba
+LN00724,Transportation & warehousing,94500,18,10.67,2023-10-14,2025-04-06,0,Current,Invoice,0.87,LO15,Manitoba
+LN00725,Professional services,102500,18,12.35,2022-10-21,2024-04-13,129,NPL (>90),Invoice,0.65,LO15,Manitoba
+LN00726,Agriculture,138000,24,11.36,2022-05-28,2024-05-17,0,Current,Land,0.68,LO12,British Columbia
+LN00727,Manufacturing,181000,12,10.4,2022-12-28,2023-12-23,0,Current,Invoice,1.23,LO08,Quebec
+LN00728,Professional services,90000,18,8.45,2023-02-13,2024-08-06,0,Current,Equipment,1.28,LO04,Manitoba
+LN00729,Manufacturing,133000,36,9.11,2023-11-07,2026-10-22,32,31-60 DPD,Invoice,1.23,LO13,Ontario
+LN00730,Professional services,74500,18,10.05,2022-05-25,2023-11-16,28,1-30 DPD,Invoice,0.86,LO11,Quebec
+LN00731,Agriculture,166500,36,11.2,2022-07-24,2025-07-08,59,31-60 DPD,Equipment,0.88,LO15,British Columbia
+LN00732,Professional services,41000,24,11.79,2022-07-31,2024-07-20,64,61-90 DPD,Invoice,0.63,LO03,Quebec
+LN00733,Transportation & warehousing,127500,12,10.31,2023-08-12,2024-08-06,0,Current,Invoice,0.63,LO04,Ontario
+LN00734,Transportation & warehousing,32500,24,12.86,2023-09-20,2025-09-09,57,31-60 DPD,None,0.44,LO15,Ontario
+LN00735,Transportation & warehousing,26500,6,11.22,2022-01-09,2022-07-08,10,1-30 DPD,Guarantee,0.58,LO06,Quebec
+LN00736,Manufacturing,138500,12,9.87,2022-03-09,2023-03-04,0,Current,Guarantee,1.07,LO06,British Columbia
+LN00737,Professional services,92000,12,9.47,2022-04-14,2023-04-09,0,Current,Equipment,1.37,LO02,British Columbia
+LN00738,Construction,80500,36,12.5,2023-04-26,2026-04-10,130,NPL (>90),Guarantee,0.46,LO15,Manitoba
+LN00739,Retail trade,125000,12,10.1,2022-04-10,2023-04-05,0,Current,Invoice,0.66,LO08,Manitoba
+LN00740,Retail trade,111500,18,10.8,2023-08-22,2025-02-12,62,61-90 DPD,None,0.77,LO15,Ontario
+LN00741,Professional services,174000,36,10.86,2022-12-14,2025-11-28,0,Current,Land,1.27,LO10,Quebec
+LN00742,Transportation & warehousing,78000,12,7.38,2023-11-16,2024-11-10,0,Current,Equipment,2.0,LO06,Quebec
+LN00743,Transportation & warehousing,147000,6,8.59,2023-05-22,2023-11-18,0,Current,Invoice,1.15,LO06,Ontario
+LN00744,Agriculture,43000,18,8.46,2022-01-25,2023-07-19,0,Current,Invoice,1.29,LO03,Ontario
+LN00745,Transportation & warehousing,51000,18,11.43,2023-03-20,2024-09-10,73,61-90 DPD,Invoice,1.34,LO06,British Columbia
+LN00746,Retail trade,32500,36,11.26,2023-08-11,2026-07-26,9,1-30 DPD,Land,0.76,LO04,Quebec
+LN00747,Professional services,77000,18,8.28,2022-12-10,2024-06-02,0,Current,Invoice,1.45,LO06,Manitoba
+LN00748,Agriculture,134500,36,10.49,2022-10-16,2025-09-30,0,Current,Guarantee,1.12,LO08,Alberta
+LN00749,Retail trade,149500,18,10.06,2022-04-27,2023-10-19,0,Current,Land,0.64,LO03,Quebec
+LN00750,Retail trade,36500,12,10.15,2022-03-19,2023-03-14,5,1-30 DPD,Land,1.25,LO12,Ontario
+LN00751,Agriculture,160500,36,11.76,2023-08-20,2026-08-04,40,31-60 DPD,Invoice,0.39,LO06,Ontario
+LN00752,Transportation & warehousing,28000,6,11.55,2022-05-23,2022-11-19,70,61-90 DPD,Equipment,0.81,LO15,Ontario
+LN00753,Manufacturing,25500,6,9.93,2022-08-27,2023-02-23,9,1-30 DPD,Invoice,1.08,LO09,Manitoba
+LN00754,Professional services,151500,24,9.29,2022-07-10,2024-06-29,0,Current,Invoice,0.99,LO11,British Columbia
+LN00755,Retail trade,86500,36,10.69,2022-06-30,2025-06-14,16,1-30 DPD,None,0.74,LO04,Alberta
+LN00756,Retail trade,131500,6,11.0,2022-11-26,2023-05-25,6,1-30 DPD,Equipment,0.84,LO11,Ontario
+LN00757,Construction,61000,24,11.36,2022-10-20,2024-10-09,66,61-90 DPD,Guarantee,0.87,LO09,Ontario
+LN00758,Transportation & warehousing,164000,18,9.34,2022-06-15,2023-12-07,0,Current,Land,0.89,LO08,Quebec
+LN00759,Transportation & warehousing,20000,24,9.24,2023-04-02,2025-03-22,0,Current,Land,1.12,LO13,Quebec
+LN00760,Transportation & warehousing,127500,6,10.78,2022-11-23,2023-05-22,35,31-60 DPD,Invoice,0.95,LO13,Quebec
+LN00761,Agriculture,96500,24,8.93,2022-07-14,2024-07-03,0,Current,Guarantee,1.06,LO15,Quebec
+LN00762,Agriculture,169500,24,12.51,2023-04-21,2025-04-10,82,61-90 DPD,Invoice,0.72,LO12,Ontario
+LN00763,Professional services,82500,6,7.24,2022-11-21,2023-05-20,0,Current,Equipment,1.68,LO01,Quebec
+LN00764,Transportation & warehousing,166500,12,12.3,2022-07-08,2023-07-03,116,NPL (>90),Equipment,0.66,LO07,Quebec
+LN00765,Manufacturing,56500,12,9.05,2023-02-06,2024-02-01,0,Current,None,1.38,LO04,Quebec
+LN00766,Construction,135000,24,12.1,2022-06-13,2024-06-02,57,31-60 DPD,Invoice,0.85,LO01,Quebec
+LN00767,Retail trade,21500,18,11.49,2023-09-15,2025-03-08,81,61-90 DPD,Invoice,0.55,LO07,Quebec
+LN00768,Retail trade,175500,12,11.54,2022-11-15,2023-11-10,63,61-90 DPD,None,0.36,LO02,British Columbia
+LN00769,Manufacturing,101500,18,8.24,2022-05-12,2023-11-03,0,Current,Land,1.07,LO06,Quebec
+LN00770,Manufacturing,46000,18,7.23,2022-11-17,2024-05-10,0,Current,Invoice,1.69,LO09,Quebec
+LN00771,Construction,147500,12,10.91,2022-11-26,2023-11-21,51,31-60 DPD,Equipment,0.45,LO10,Manitoba
+LN00772,Manufacturing,94500,24,11.61,2022-11-17,2024-11-06,42,31-60 DPD,None,0.36,LO07,Ontario
+LN00773,Manufacturing,118000,6,10.6,2023-04-19,2023-10-16,0,Current,Guarantee,1.03,LO07,Ontario
+LN00774,Manufacturing,147000,18,7.67,2023-01-08,2024-07-01,0,Current,Land,1.22,LO04,Alberta
+LN00775,Retail trade,66500,36,7.37,2022-05-30,2025-05-14,0,Current,Invoice,1.74,LO10,British Columbia
+LN00776,Manufacturing,152500,12,10.96,2023-09-04,2024-08-29,11,1-30 DPD,None,1.27,LO12,Ontario
+LN00777,Transportation & warehousing,163000,36,9.13,2022-10-17,2025-10-01,0,Current,Land,1.31,LO04,Manitoba
+LN00778,Agriculture,14000,24,9.05,2023-04-22,2025-04-11,0,Current,Equipment,1.36,LO07,British Columbia
+LN00779,Manufacturing,112500,18,8.7,2022-10-08,2024-03-31,0,Current,None,1.24,LO03,British Columbia
+LN00780,Manufacturing,65500,6,8.97,2022-12-01,2023-05-30,0,Current,None,1.28,LO03,Quebec
+LN00781,Transportation & warehousing,74500,6,10.42,2023-10-24,2024-04-21,41,31-60 DPD,None,0.91,LO01,Alberta
+LN00782,Agriculture,66000,36,9.96,2023-06-08,2026-05-23,22,1-30 DPD,Land,1.14,LO12,Manitoba
+LN00783,Professional services,21000,6,7.94,2022-04-15,2022-10-12,0,Current,Equipment,1.44,LO06,Quebec
+LN00784,Agriculture,24000,18,9.96,2023-05-20,2024-11-10,0,Current,Invoice,1.05,LO09,Quebec
+LN00785,Transportation & warehousing,146500,12,9.08,2022-04-02,2023-03-28,0,Current,Land,1.34,LO14,Quebec
+LN00786,Manufacturing,51000,36,9.78,2023-10-21,2026-10-05,0,Current,Equipment,1.1,LO01,Manitoba
+LN00787,Manufacturing,174500,12,9.11,2022-11-27,2023-11-22,0,Current,Invoice,1.42,LO13,Quebec
+LN00788,Professional services,14000,24,9.53,2022-02-11,2024-02-01,0,Current,Equipment,1.16,LO04,Manitoba
+LN00789,Construction,95000,18,10.58,2023-08-19,2025-02-09,45,31-60 DPD,Equipment,0.69,LO03,British Columbia
+LN00790,Retail trade,168500,36,11.23,2023-07-24,2026-07-08,0,Current,Guarantee,0.96,LO03,Ontario
+LN00791,Manufacturing,140500,18,8.96,2022-12-01,2024-05-24,0,Current,Guarantee,0.94,LO08,British Columbia
+LN00792,Transportation & warehousing,126000,24,10.24,2022-04-26,2024-04-15,4,1-30 DPD,Land,1.09,LO02,Alberta
+LN00793,Manufacturing,44500,36,12.04,2022-11-02,2025-10-17,56,31-60 DPD,None,0.31,LO06,Quebec
+LN00794,Retail trade,122000,12,11.34,2022-09-16,2023-09-11,65,61-90 DPD,Equipment,0.45,LO05,Ontario
+LN00795,Manufacturing,153500,18,11.06,2023-02-02,2024-07-26,79,61-90 DPD,Invoice,0.65,LO03,Quebec
+LN00796,Professional services,107000,18,7.25,2023-11-15,2025-05-08,0,Current,Equipment,1.7,LO02,Ontario
+LN00797,Retail trade,117000,6,10.61,2022-01-01,2022-06-30,50,31-60 DPD,None,1.17,LO02,Ontario
+LN00798,Agriculture,47000,12,8.82,2023-01-17,2024-01-12,0,Current,Land,1.29,LO11,Ontario
+LN00799,Agriculture,143000,6,9.51,2022-09-27,2023-03-26,8,1-30 DPD,Equipment,0.85,LO11,Alberta
+LN00800,Transportation & warehousing,147000,24,11.47,2022-04-26,2024-04-15,0,Current,Land,1.1,LO08,Ontario
+LN00801,Construction,130000,18,10.76,2023-07-31,2025-01-21,44,31-60 DPD,Equipment,0.66,LO07,Alberta
+LN00802,Professional services,15000,24,11.31,2023-04-22,2025-04-11,29,1-30 DPD,Invoice,0.8,LO01,British Columbia
+LN00803,Retail trade,123500,18,11.42,2023-05-06,2024-10-27,37,31-60 DPD,Guarantee,0.57,LO04,Manitoba
+LN00804,Transportation & warehousing,87500,6,11.47,2022-02-15,2022-08-14,123,NPL (>90),None,0.92,LO07,British Columbia
+LN00805,Transportation & warehousing,94500,12,8.59,2022-02-18,2023-02-13,0,Current,Guarantee,1.13,LO08,British Columbia
+LN00806,Manufacturing,74500,18,8.59,2023-07-08,2024-12-29,0,Current,Equipment,1.47,LO11,Quebec
+LN00807,Professional services,40000,24,9.52,2022-12-22,2024-12-11,0,Current,Invoice,1.08,LO07,Quebec
+LN00808,Professional services,24500,18,8.48,2022-12-07,2024-05-30,0,Current,Guarantee,1.14,LO08,Ontario
+LN00809,Construction,159000,12,11.48,2022-12-18,2023-12-13,35,31-60 DPD,Equipment,1.05,LO09,Alberta
+LN00810,Transportation & warehousing,37500,36,10.91,2022-07-30,2025-07-14,64,61-90 DPD,Invoice,0.57,LO07,Ontario
+LN00811,Construction,104000,36,12.1,2022-01-05,2024-12-20,87,61-90 DPD,Equipment,0.54,LO11,Alberta
+LN00812,Agriculture,94500,18,12.36,2023-01-18,2024-07-11,39,31-60 DPD,None,0.26,LO09,Alberta
+LN00813,Professional services,47500,18,7.56,2022-04-19,2023-10-11,0,Current,Equipment,1.32,LO15,Ontario
+LN00814,Manufacturing,134000,36,10.91,2023-05-23,2026-05-07,45,31-60 DPD,Equipment,0.76,LO12,Quebec
+LN00815,Manufacturing,140500,18,10.55,2023-07-09,2024-12-30,7,1-30 DPD,Equipment,0.95,LO01,Quebec
+LN00816,Retail trade,45500,6,8.91,2023-04-09,2023-10-06,0,Current,Land,1.0,LO06,Alberta
+LN00817,Professional services,11500,36,10.74,2023-02-02,2026-01-17,38,31-60 DPD,None,0.55,LO08,Alberta
+LN00818,Construction,112500,24,11.7,2023-05-27,2025-05-16,57,31-60 DPD,Guarantee,0.35,LO05,Alberta
+LN00819,Professional services,159000,24,9.22,2022-04-11,2024-03-31,0,Current,Guarantee,1.35,LO11,Quebec
+LN00820,Retail trade,75500,24,11.65,2022-03-30,2024-03-19,61,61-90 DPD,Invoice,0.87,LO02,Ontario
+LN00821,Manufacturing,135000,6,7.02,2022-12-12,2023-06-10,0,Current,Land,1.91,LO09,Ontario
+LN00822,Transportation & warehousing,158000,12,8.87,2022-04-08,2023-04-03,19,1-30 DPD,Land,1.35,LO10,Ontario
+LN00823,Transportation & warehousing,145000,36,8.65,2023-05-30,2026-05-14,0,Current,None,1.22,LO15,British Columbia
+LN00824,Transportation & warehousing,135000,18,11.45,2023-06-14,2024-12-05,80,61-90 DPD,Invoice,0.58,LO08,Quebec
+LN00825,Manufacturing,16500,36,9.01,2022-04-23,2025-04-07,0,Current,Land,1.51,LO08,Manitoba
+LN00826,Retail trade,77000,12,10.09,2022-02-14,2023-02-09,27,1-30 DPD,Guarantee,1.03,LO06,Ontario
+LN00827,Transportation & warehousing,111000,24,10.7,2023-04-01,2025-03-21,61,61-90 DPD,Land,0.73,LO03,Manitoba
+LN00828,Transportation & warehousing,179500,36,11.84,2023-03-25,2026-03-09,52,31-60 DPD,Invoice,0.32,LO12,Quebec
+LN00829,Retail trade,132500,18,11.77,2022-04-19,2023-10-11,103,NPL (>90),Invoice,0.57,LO07,Ontario
+LN00830,Retail trade,25000,18,10.68,2023-06-04,2024-11-25,38,31-60 DPD,Equipment,1.01,LO15,Manitoba
+LN00831,Retail trade,14000,6,11.85,2023-11-12,2024-05-10,50,31-60 DPD,None,0.61,LO05,Quebec
+LN00832,Retail trade,178000,12,12.34,2022-04-29,2023-04-24,73,61-90 DPD,None,0.46,LO04,Manitoba
+LN00833,Agriculture,33000,24,10.77,2022-03-03,2024-02-21,73,61-90 DPD,None,0.83,LO10,British Columbia
+LN00834,Retail trade,62500,12,11.25,2022-09-07,2023-09-02,24,1-30 DPD,Invoice,0.96,LO04,Alberta
+LN00835,Professional services,92500,12,7.93,2023-02-02,2024-01-28,0,Current,Land,1.4,LO03,Ontario
+LN00836,Construction,35000,6,11.08,2022-03-16,2022-09-12,0,Current,None,0.79,LO11,Ontario
+LN00837,Professional services,155000,18,7.4,2022-09-26,2024-03-19,0,Current,Land,1.82,LO13,Quebec
+LN00838,Retail trade,43000,18,11.93,2023-09-13,2025-03-06,142,NPL (>90),Equipment,0.15,LO03,Quebec
+LN00839,Construction,174000,36,11.55,2023-10-24,2026-10-08,0,Current,Equipment,0.99,LO05,Quebec
+LN00840,Retail trade,84500,6,8.96,2023-07-30,2024-01-26,0,Current,Land,1.33,LO13,Manitoba
+LN00841,Transportation & warehousing,16500,18,9.86,2023-04-21,2024-10-12,6,1-30 DPD,Guarantee,0.88,LO09,British Columbia
+LN00842,Agriculture,169000,24,11.28,2023-01-31,2025-01-20,9,1-30 DPD,None,0.78,LO15,Alberta
+LN00843,Construction,113500,36,11.1,2022-12-12,2025-11-26,5,1-30 DPD,Guarantee,0.93,LO10,Alberta
+LN00844,Retail trade,53500,18,11.25,2022-10-23,2024-04-15,10,1-30 DPD,None,0.7,LO06,Quebec
+LN00845,Manufacturing,108000,18,8.27,2022-07-16,2024-01-07,0,Current,Invoice,1.51,LO10,Quebec
+LN00846,Transportation & warehousing,124000,36,9.57,2022-05-23,2025-05-07,24,1-30 DPD,Guarantee,0.86,LO11,Quebec
+LN00847,Transportation & warehousing,104000,18,9.15,2023-04-19,2024-10-10,0,Current,Guarantee,1.06,LO04,British Columbia
+LN00848,Transportation & warehousing,153500,12,9.91,2023-05-24,2024-05-18,0,Current,Guarantee,0.99,LO08,Alberta
+LN00849,Agriculture,171500,24,10.2,2022-05-30,2024-05-19,13,1-30 DPD,Land,1.08,LO14,British Columbia
+LN00850,Professional services,10500,12,9.06,2022-09-18,2023-09-13,2,1-30 DPD,Invoice,1.49,LO09,British Columbia
+LN00851,Agriculture,98500,24,10.39,2022-02-22,2024-02-12,12,1-30 DPD,Invoice,0.96,LO08,Quebec
+LN00852,Professional services,64000,12,9.48,2023-01-06,2024-01-01,0,Current,Land,1.21,LO02,Quebec
+LN00853,Retail trade,105000,18,11.82,2022-04-09,2023-10-01,46,31-60 DPD,Equipment,0.37,LO11,British Columbia
+LN00854,Retail trade,11500,18,11.24,2022-10-11,2024-04-03,19,1-30 DPD,Guarantee,0.88,LO04,Manitoba
+LN00855,Construction,114500,18,11.96,2022-12-29,2024-06-21,44,31-60 DPD,None,0.79,LO13,Manitoba
+LN00856,Manufacturing,149500,24,8.21,2023-09-24,2025-09-13,0,Current,Land,1.45,LO02,British Columbia
+LN00857,Transportation & warehousing,116000,18,9.36,2022-05-08,2023-10-30,24,1-30 DPD,Equipment,1.44,LO10,Manitoba
+LN00858,Manufacturing,168500,18,11.07,2022-09-02,2024-02-24,17,1-30 DPD,Guarantee,1.16,LO14,British Columbia
+LN00859,Professional services,87000,12,8.89,2022-03-25,2023-03-20,0,Current,Equipment,1.12,LO07,Ontario
+LN00860,Construction,140000,6,9.19,2022-10-06,2023-04-04,0,Current,Equipment,1.08,LO08,Quebec
+LN00861,Construction,69000,6,11.93,2023-09-23,2024-03-21,40,31-60 DPD,Equipment,0.83,LO12,Ontario
+LN00862,Construction,155000,24,9.26,2023-02-18,2025-02-07,0,Current,Equipment,1.46,LO06,Quebec
+LN00863,Agriculture,53000,18,9.63,2023-01-24,2024-07-17,0,Current,Land,1.03,LO10,Manitoba
+LN00864,Transportation & warehousing,130500,24,11.01,2022-01-23,2024-01-13,58,31-60 DPD,Invoice,0.67,LO06,Quebec
+LN00865,Retail trade,95000,24,11.05,2022-04-02,2024-03-22,43,31-60 DPD,Guarantee,0.6,LO05,Quebec
+LN00866,Manufacturing,39000,36,10.17,2023-09-06,2026-08-21,0,Current,None,0.99,LO14,Ontario
+LN00867,Professional services,73000,12,8.7,2022-06-12,2023-06-07,0,Current,Land,1.33,LO09,Quebec
+LN00868,Professional services,35500,12,8.04,2022-10-13,2023-10-08,0,Current,Equipment,1.48,LO05,Manitoba
+LN00869,Construction,21500,6,9.94,2023-08-10,2024-02-06,0,Current,Equipment,0.81,LO08,Quebec
+LN00870,Manufacturing,50500,12,6.36,2022-03-20,2023-03-15,0,Current,Land,1.82,LO05,Ontario
+LN00871,Manufacturing,102500,24,7.96,2023-01-13,2025-01-02,0,Current,Equipment,1.57,LO01,Quebec
+LN00872,Manufacturing,142500,36,11.44,2023-05-28,2026-05-12,21,1-30 DPD,None,0.83,LO07,Manitoba
+LN00873,Manufacturing,18000,12,10.93,2022-09-05,2023-08-31,15,1-30 DPD,None,0.69,LO08,Manitoba
+LN00874,Professional services,40000,6,9.39,2022-06-15,2022-12-12,0,Current,None,1.18,LO02,Quebec
+LN00875,Manufacturing,10000,24,10.35,2023-05-17,2025-05-06,12,1-30 DPD,None,0.86,LO15,British Columbia
+LN00876,Professional services,176500,36,11.52,2023-09-13,2026-08-28,77,61-90 DPD,None,0.71,LO12,Quebec
+LN00877,Agriculture,100500,24,8.23,2023-05-27,2025-05-16,0,Current,Land,1.34,LO06,Ontario
+LN00878,Agriculture,30000,24,7.46,2022-11-03,2024-10-23,0,Current,Guarantee,1.67,LO08,Manitoba
+LN00879,Retail trade,47000,12,8.58,2023-08-28,2024-08-22,0,Current,Guarantee,1.41,LO03,Ontario
+LN00880,Manufacturing,166500,18,10.05,2023-04-23,2024-10-14,1,1-30 DPD,Invoice,1.13,LO04,Quebec
+LN00881,Manufacturing,82000,6,7.4,2022-05-30,2022-11-26,0,Current,Guarantee,1.45,LO06,Quebec
+LN00882,Professional services,163500,24,7.18,2022-10-29,2024-10-18,0,Current,Guarantee,1.29,LO09,Quebec
+LN00883,Retail trade,171500,24,10.34,2022-12-06,2024-11-25,3,1-30 DPD,Equipment,1.06,LO02,Manitoba
+LN00884,Transportation & warehousing,133000,18,8.37,2023-06-06,2024-11-27,0,Current,Equipment,1.42,LO06,Ontario
+LN00885,Professional services,79500,36,9.87,2023-09-29,2026-09-13,44,31-60 DPD,None,0.87,LO15,Quebec
+LN00886,Professional services,85000,36,10.5,2023-07-16,2026-06-30,20,1-30 DPD,None,0.77,LO03,Ontario
+LN00887,Professional services,67000,24,10.98,2023-10-13,2025-10-02,43,31-60 DPD,Equipment,0.96,LO07,Quebec
+LN00888,Professional services,48000,6,7.91,2022-05-17,2022-11-13,0,Current,Equipment,1.36,LO04,Quebec
+LN00889,Manufacturing,83500,36,9.44,2022-08-04,2025-07-19,8,1-30 DPD,Land,0.95,LO08,Ontario
+LN00890,Retail trade,47500,12,8.99,2023-05-21,2024-05-15,18,1-30 DPD,Land,1.01,LO08,Ontario
+LN00891,Agriculture,116500,18,10.52,2022-09-22,2024-03-15,0,Current,Guarantee,0.75,LO06,British Columbia
+LN00892,Manufacturing,125500,36,9.31,2022-10-13,2025-09-27,0,Current,None,0.87,LO04,Manitoba
+LN00893,Retail trade,85000,18,11.46,2023-06-06,2024-11-27,0,Current,Invoice,0.88,LO10,Quebec
+LN00894,Agriculture,28000,12,8.57,2022-08-13,2023-08-08,0,Current,Equipment,1.41,LO03,Ontario
+LN00895,Transportation & warehousing,103500,18,8.31,2023-02-14,2024-08-07,0,Current,Land,1.32,LO10,Quebec
+LN00896,Transportation & warehousing,21000,18,9.63,2022-02-28,2023-08-22,0,Current,Invoice,0.83,LO07,Manitoba
+LN00897,Professional services,91500,6,12.12,2023-01-15,2023-07-14,47,31-60 DPD,Invoice,0.44,LO07,British Columbia
+LN00898,Manufacturing,80000,12,11.44,2023-09-18,2024-09-12,51,31-60 DPD,Equipment,0.55,LO10,Quebec
+LN00899,Construction,75000,6,10.0,2022-03-26,2022-09-22,0,Current,None,1.2,LO15,Ontario
+LN00900,Transportation & warehousing,122000,6,8.44,2022-07-01,2022-12-28,0,Current,Land,0.98,LO14,Quebec
+LN00901,Transportation & warehousing,128500,18,9.04,2022-03-31,2023-09-22,0,Current,Guarantee,1.1,LO10,Ontario
+LN00902,Retail trade,116000,12,10.55,2023-02-05,2024-01-31,0,Current,Invoice,1.28,LO10,Quebec
+LN00903,Construction,154500,6,11.19,2022-10-19,2023-04-17,10,1-30 DPD,Guarantee,0.7,LO13,Alberta
+LN00904,Construction,26500,36,10.92,2022-10-18,2025-10-02,42,31-60 DPD,Land,0.83,LO06,Alberta
+LN00905,Manufacturing,130000,24,9.13,2023-06-06,2025-05-26,0,Current,Invoice,1.06,LO15,Manitoba
+LN00906,Agriculture,125000,12,9.42,2022-06-02,2023-05-28,0,Current,Equipment,1.54,LO01,British Columbia
+LN00907,Retail trade,35500,24,11.56,2022-03-17,2024-03-06,32,31-60 DPD,Guarantee,0.66,LO12,Quebec
+LN00908,Professional services,81000,36,8.92,2022-11-06,2025-10-21,0,Current,Equipment,1.14,LO11,Ontario
+LN00909,Agriculture,37000,12,10.25,2022-02-20,2023-02-15,49,31-60 DPD,Guarantee,0.73,LO14,Quebec
+LN00910,Professional services,124000,24,12.01,2022-11-28,2024-11-17,69,61-90 DPD,Invoice,0.81,LO06,Alberta
+LN00911,Transportation & warehousing,83000,18,11.11,2023-08-04,2025-01-25,0,Current,Equipment,0.44,LO07,Ontario
+LN00912,Professional services,161500,18,8.76,2022-05-24,2023-11-15,0,Current,Equipment,1.63,LO08,Quebec
+LN00913,Manufacturing,134500,24,8.13,2022-01-10,2023-12-31,7,1-30 DPD,None,0.92,LO01,Ontario
+LN00914,Professional services,143500,36,9.66,2022-06-01,2025-05-16,0,Current,Guarantee,1.08,LO14,Alberta
+LN00915,Transportation & warehousing,97000,36,11.76,2023-06-26,2026-06-10,0,Current,None,0.92,LO13,Alberta
+LN00916,Retail trade,88500,36,12.02,2023-07-06,2026-06-20,36,31-60 DPD,Invoice,0.15,LO06,Ontario
+LN00917,Professional services,112000,6,8.89,2023-03-04,2023-08-31,0,Current,None,0.94,LO15,Quebec
+LN00918,Construction,48500,18,11.43,2023-10-30,2025-04-22,66,61-90 DPD,Land,0.76,LO11,British Columbia
+LN00919,Agriculture,78000,6,10.66,2022-02-11,2022-08-10,21,1-30 DPD,Equipment,0.92,LO07,Ontario
+LN00920,Retail trade,149000,18,10.13,2023-07-14,2025-01-04,13,1-30 DPD,Invoice,1.2,LO14,Alberta
+LN00921,Transportation & warehousing,146500,36,11.53,2023-05-24,2026-05-08,28,1-30 DPD,None,0.83,LO02,Ontario
+LN00922,Manufacturing,170000,24,10.61,2022-12-03,2024-11-22,5,1-30 DPD,Equipment,1.24,LO04,Ontario
+LN00923,Transportation & warehousing,84000,18,7.97,2023-05-07,2024-10-28,0,Current,Guarantee,1.18,LO05,Alberta
+LN00924,Agriculture,81500,24,8.33,2022-06-17,2024-06-06,0,Current,Guarantee,1.61,LO15,Quebec
+LN00925,Agriculture,182500,36,9.78,2022-03-20,2025-03-04,0,Current,Land,1.07,LO02,Ontario
+LN00926,Agriculture,177000,6,8.69,2022-12-12,2023-06-10,0,Current,Land,1.31,LO14,Ontario
+LN00927,Construction,90500,6,10.72,2023-09-22,2024-03-20,55,31-60 DPD,Land,1.08,LO07,Ontario
+LN00928,Manufacturing,104000,18,6.85,2023-09-28,2025-03-21,0,Current,Land,2.0,LO03,Manitoba
+LN00929,Agriculture,37500,36,11.75,2023-10-09,2026-09-23,128,NPL (>90),Invoice,0.22,LO07,Ontario
+LN00930,Construction,144000,24,11.38,2022-07-14,2024-07-03,4,1-30 DPD,None,0.72,LO13,British Columbia
+LN00931,Transportation & warehousing,130500,12,8.87,2023-05-22,2024-05-16,0,Current,Guarantee,1.72,LO04,Ontario
+LN00932,Retail trade,88000,6,10.73,2022-01-18,2022-07-17,0,Current,Guarantee,0.99,LO07,Alberta
+LN00933,Retail trade,177500,24,8.55,2022-04-09,2024-03-29,0,Current,Land,1.55,LO08,Quebec
+LN00934,Construction,182500,18,10.0,2022-02-03,2023-07-28,15,1-30 DPD,Guarantee,0.77,LO09,Ontario
+LN00935,Professional services,60500,6,9.3,2022-11-04,2023-05-03,0,Current,Guarantee,1.57,LO03,Quebec
+LN00936,Agriculture,157000,6,11.7,2023-01-08,2023-07-07,0,Current,Land,0.78,LO12,Quebec
+LN00937,Professional services,13500,18,8.6,2022-04-06,2023-09-28,0,Current,None,1.25,LO02,Quebec
+LN00938,Retail trade,26000,18,11.2,2022-11-22,2024-05-15,0,Current,Land,0.57,LO04,British Columbia
+LN00939,Retail trade,50000,18,9.7,2023-07-18,2025-01-08,0,Current,Land,0.94,LO09,British Columbia
+LN00940,Transportation & warehousing,104500,36,11.61,2022-04-13,2025-03-28,5,1-30 DPD,Invoice,0.74,LO01,Quebec
+LN00941,Professional services,26000,18,8.91,2022-02-23,2023-08-17,0,Current,None,1.2,LO15,Quebec
+LN00942,Retail trade,91000,18,9.87,2022-04-20,2023-10-12,0,Current,Guarantee,1.06,LO09,Ontario
+LN00943,Manufacturing,24000,12,7.26,2023-08-06,2024-07-31,0,Current,Land,1.47,LO12,Alberta
+LN00944,Manufacturing,39000,36,8.39,2023-02-22,2026-02-06,0,Current,Land,1.44,LO15,Quebec
+LN00945,Construction,147500,12,12.11,2022-09-01,2023-08-27,85,61-90 DPD,Invoice,0.66,LO09,Quebec
+LN00946,Agriculture,33500,36,9.78,2023-08-16,2026-07-31,24,1-30 DPD,Guarantee,0.81,LO10,Ontario
+LN00947,Retail trade,132000,18,10.5,2023-05-25,2024-11-15,20,1-30 DPD,None,1.04,LO05,Alberta
+LN00948,Manufacturing,109500,36,10.12,2023-11-19,2026-11-03,0,Current,Equipment,0.85,LO01,Manitoba
+LN00949,Manufacturing,139000,6,7.48,2022-05-17,2022-11-13,0,Current,Land,1.3,LO11,Manitoba
+LN00950,Transportation & warehousing,29000,6,7.37,2022-12-16,2023-06-14,0,Current,Equipment,1.82,LO03,Alberta
+LN00951,Transportation & warehousing,146000,18,9.52,2023-02-25,2024-08-18,0,Current,Guarantee,1.08,LO04,Ontario
+LN00952,Transportation & warehousing,35000,24,11.19,2023-11-13,2025-11-02,0,Current,Equipment,0.73,LO05,Quebec
+LN00953,Retail trade,53500,24,10.33,2022-03-04,2024-02-22,0,Current,Invoice,1.08,LO04,Quebec
+LN00954,Retail trade,162500,12,11.44,2022-07-01,2023-06-26,17,1-30 DPD,Invoice,0.86,LO08,Ontario
+LN00955,Construction,21000,24,12.53,2023-10-22,2025-10-11,24,1-30 DPD,Guarantee,0.8,LO07,Quebec
+LN00956,Manufacturing,93000,24,12.02,2022-01-18,2024-01-08,110,NPL (>90),Equipment,0.15,LO07,Manitoba
+LN00957,Construction,98000,12,10.64,2023-01-15,2024-01-10,21,1-30 DPD,Guarantee,1.09,LO09,Ontario
+LN00958,Agriculture,139000,6,8.93,2022-04-20,2022-10-17,0,Current,Equipment,1.36,LO05,Ontario
+LN00959,Manufacturing,141000,36,11.07,2023-08-12,2026-07-27,1,1-30 DPD,Equipment,1.03,LO09,Ontario
+LN00960,Manufacturing,176000,18,7.87,2023-07-22,2025-01-12,0,Current,Invoice,1.53,LO01,Quebec
+LN00961,Manufacturing,42000,18,10.15,2023-03-12,2024-09-02,28,1-30 DPD,None,0.91,LO07,Alberta
+LN00962,Construction,107500,18,12.26,2023-04-29,2024-10-20,117,NPL (>90),None,0.47,LO04,Quebec
+LN00963,Retail trade,158500,18,9.44,2022-09-04,2024-02-26,0,Current,Invoice,1.38,LO01,Alberta
+LN00964,Retail trade,27500,12,10.98,2022-02-14,2023-02-09,47,31-60 DPD,Equipment,0.64,LO09,Alberta
+LN00965,Retail trade,27500,36,9.35,2022-05-19,2025-05-03,0,Current,Guarantee,1.02,LO05,Ontario
+LN00966,Construction,80500,18,10.76,2023-04-06,2024-09-27,19,1-30 DPD,Equipment,0.74,LO15,Manitoba
+LN00967,Construction,30500,18,11.81,2023-07-04,2024-12-25,53,31-60 DPD,Equipment,0.58,LO12,Quebec
+LN00968,Construction,38500,6,9.73,2023-05-17,2023-11-13,0,Current,Equipment,1.03,LO15,Quebec
+LN00969,Retail trade,25000,36,7.96,2023-08-13,2026-07-28,0,Current,Guarantee,1.16,LO13,Quebec
+LN00970,Construction,130500,6,12.26,2023-10-05,2024-04-02,49,31-60 DPD,None,0.44,LO05,Manitoba
+LN00971,Manufacturing,152000,12,9.09,2022-07-03,2023-06-28,0,Current,Equipment,1.53,LO01,Alberta
+LN00972,Professional services,49000,12,6.69,2022-07-29,2023-07-24,0,Current,Guarantee,1.79,LO15,Ontario
+LN00973,Agriculture,154500,24,9.73,2022-03-06,2024-02-24,0,Current,Invoice,0.84,LO06,Ontario
+LN00974,Construction,40000,24,11.9,2022-06-11,2024-05-31,78,61-90 DPD,Equipment,0.66,LO07,Ontario
+LN00975,Professional services,49500,12,11.79,2023-06-17,2024-06-11,18,1-30 DPD,None,0.71,LO15,British Columbia
+LN00976,Construction,180500,24,11.0,2023-09-01,2025-08-21,51,31-60 DPD,None,0.87,LO04,Quebec
+LN00977,Professional services,39500,24,9.56,2022-09-24,2024-09-13,0,Current,Land,1.26,LO05,Quebec
+LN00978,Construction,90500,6,10.8,2022-04-29,2022-10-26,36,31-60 DPD,Equipment,0.68,LO04,Alberta
+LN00979,Transportation & warehousing,102000,6,11.97,2023-02-09,2023-08-08,118,NPL (>90),Equipment,0.56,LO03,British Columbia
+LN00980,Manufacturing,148000,12,7.99,2023-06-05,2024-05-30,0,Current,None,1.46,LO02,Manitoba
+LN00981,Construction,105500,18,9.79,2022-04-06,2023-09-28,0,Current,Equipment,1.02,LO01,Quebec
+LN00982,Professional services,157000,12,6.68,2022-08-14,2023-08-09,0,Current,Land,1.46,LO10,Quebec
+LN00983,Retail trade,83000,36,11.13,2022-11-26,2025-11-10,90,61-90 DPD,Guarantee,0.55,LO13,Ontario
+LN00984,Retail trade,144000,6,7.97,2022-02-01,2022-07-31,0,Current,Land,1.4,LO13,Alberta
+LN00985,Transportation & warehousing,111000,6,11.87,2023-05-08,2023-11-04,54,31-60 DPD,None,0.82,LO01,Ontario
+LN00986,Transportation & warehousing,139500,36,10.1,2022-06-03,2025-05-18,41,31-60 DPD,Guarantee,1.06,LO11,Ontario
+LN00987,Construction,121500,18,12.26,2022-03-29,2023-09-20,23,1-30 DPD,None,0.61,LO05,Quebec
+LN00988,Construction,167500,6,10.29,2022-10-23,2023-04-21,15,1-30 DPD,None,1.03,LO01,Quebec
+LN00989,Professional services,91000,36,10.53,2022-01-27,2025-01-11,3,1-30 DPD,Guarantee,1.01,LO07,Quebec
+LN00990,Transportation & warehousing,69000,18,12.9,2022-10-09,2024-04-01,99,NPL (>90),None,0.55,LO07,British Columbia
+LN00991,Retail trade,50500,12,11.18,2023-06-08,2024-06-02,78,61-90 DPD,Land,0.94,LO14,Manitoba
+LN00992,Construction,75000,6,10.42,2022-02-10,2022-08-09,0,Current,Invoice,0.96,LO04,Manitoba
+LN00993,Professional services,114000,36,10.08,2023-09-25,2026-09-09,0,Current,None,0.99,LO14,British Columbia
+LN00994,Manufacturing,31500,6,10.97,2022-02-18,2022-08-17,56,31-60 DPD,Land,0.91,LO05,Ontario
+LN00995,Construction,31500,36,9.58,2022-01-06,2024-12-21,0,Current,Equipment,0.97,LO08,Quebec
+LN00996,Manufacturing,99000,24,10.92,2022-07-12,2024-07-01,0,Current,None,0.72,LO07,Quebec
+LN00997,Manufacturing,36500,6,7.4,2023-02-14,2023-08-13,0,Current,Equipment,1.72,LO11,Alberta
+LN00998,Transportation & warehousing,136500,24,11.22,2022-01-22,2024-01-12,0,Current,Equipment,0.93,LO13,Alberta
+LN00999,Manufacturing,73500,36,8.78,2022-04-17,2025-04-01,0,Current,Land,1.42,LO01,Ontario
+LN01000,Professional services,60500,24,8.22,2023-01-18,2025-01-07,0,Current,Guarantee,1.41,LO01,Manitoba
+LN01001,Professional services,146500,18,9.46,2023-12-01,2025-05-24,0,Current,Land,1.37,LO08,Quebec
+LN01002,Agriculture,81000,18,12.0,2023-06-10,2024-12-01,19,1-30 DPD,None,0.23,LO09,British Columbia
+LN01003,Retail trade,143500,6,9.14,2023-07-24,2024-01-20,0,Current,Guarantee,1.29,LO03,Quebec
+LN01004,Construction,154000,6,10.33,2022-12-15,2023-06-13,0,Current,Land,1.32,LO11,Ontario
+LN01005,Agriculture,51000,12,10.35,2022-12-30,2023-12-25,0,Current,None,0.83,LO12,Ontario
+LN01006,Professional services,136000,12,8.15,2022-04-03,2023-03-29,0,Current,Land,1.42,LO08,British Columbia
+LN01007,Professional services,134500,6,8.66,2023-09-14,2024-03-12,0,Current,Land,1.27,LO04,Quebec
+LN01008,Manufacturing,33000,18,11.34,2022-02-10,2023-08-04,0,Current,Invoice,1.04,LO12,Ontario
+LN01009,Retail trade,169000,36,11.19,2023-05-24,2026-05-08,7,1-30 DPD,Invoice,0.7,LO09,Ontario
+LN01010,Professional services,144500,36,8.86,2022-01-11,2024-12-26,0,Current,Equipment,1.5,LO01,Ontario
+LN01011,Retail trade,111500,18,11.12,2022-04-25,2023-10-17,51,31-60 DPD,None,1.06,LO04,Alberta
+LN01012,Professional services,67500,24,10.6,2022-10-18,2024-10-07,0,Current,None,1.2,LO12,Quebec
+LN01013,Retail trade,162500,12,9.84,2023-09-17,2024-09-11,23,1-30 DPD,Land,0.81,LO10,Ontario
+LN01014,Retail trade,160500,36,11.25,2023-07-07,2026-06-21,80,61-90 DPD,Guarantee,0.83,LO07,British Columbia
+LN01015,Professional services,69000,6,7.66,2023-02-22,2023-08-21,0,Current,Equipment,1.11,LO10,British Columbia
+LN01016,Construction,35500,12,8.59,2022-12-10,2023-12-05,0,Current,Guarantee,1.46,LO02,Quebec
+LN01017,Retail trade,130000,18,8.67,2023-07-03,2024-12-24,0,Current,Guarantee,1.29,LO13,Ontario
+LN01018,Agriculture,51000,24,11.1,2022-02-17,2024-02-07,23,1-30 DPD,None,0.72,LO02,Alberta
+LN01019,Manufacturing,83500,6,10.79,2022-07-17,2023-01-13,0,Current,Equipment,1.02,LO07,British Columbia
+LN01020,Retail trade,151500,6,11.45,2023-04-12,2023-10-09,38,31-60 DPD,Land,0.79,LO12,Manitoba
+LN01021,Retail trade,175000,12,9.78,2022-12-15,2023-12-10,0,Current,None,1.37,LO07,British Columbia
+LN01022,Retail trade,94000,24,10.98,2023-07-29,2025-07-18,0,Current,Equipment,0.76,LO09,Ontario
+LN01023,Agriculture,60000,6,10.18,2022-11-08,2023-05-07,31,31-60 DPD,None,0.9,LO13,Manitoba
+LN01024,Agriculture,61500,24,11.99,2023-07-18,2025-07-07,47,31-60 DPD,None,0.57,LO01,Manitoba
+LN01025,Manufacturing,121500,36,8.21,2022-02-24,2025-02-08,0,Current,Land,1.42,LO01,British Columbia
+LN01026,Agriculture,182000,36,10.87,2022-10-24,2025-10-08,74,61-90 DPD,Guarantee,1.03,LO15,Ontario
+LN01027,Transportation & warehousing,182000,18,11.0,2022-06-19,2023-12-11,60,31-60 DPD,None,0.56,LO11,Quebec
+LN01028,Construction,109000,24,8.73,2023-11-04,2025-10-24,0,Current,Guarantee,1.31,LO11,British Columbia
+LN01029,Construction,139000,24,10.39,2023-06-19,2025-06-08,0,Current,Guarantee,1.37,LO11,British Columbia
+LN01030,Manufacturing,35000,36,11.23,2022-01-22,2025-01-06,26,1-30 DPD,None,0.69,LO10,British Columbia
+LN01031,Manufacturing,175000,12,10.82,2022-08-17,2023-08-12,46,31-60 DPD,Invoice,0.77,LO09,Ontario
+LN01032,Professional services,117500,6,8.27,2023-04-30,2023-10-27,17,1-30 DPD,Equipment,1.39,LO02,Quebec
+LN01033,Professional services,178000,6,9.68,2022-06-28,2022-12-25,0,Current,Equipment,0.79,LO04,Quebec
+LN01034,Transportation & warehousing,124500,18,9.0,2023-06-17,2024-12-08,0,Current,Equipment,1.23,LO09,Ontario
+LN01035,Retail trade,154500,18,10.75,2022-12-19,2024-06-11,0,Current,Land,0.68,LO15,Alberta
+LN01036,Construction,115500,18,10.02,2022-05-31,2023-11-22,0,Current,Invoice,1.15,LO06,British Columbia
+LN01037,Transportation & warehousing,35000,18,12.52,2023-07-18,2025-01-08,58,31-60 DPD,Invoice,0.67,LO15,Ontario
+LN01038,Manufacturing,12500,24,9.7,2022-04-11,2024-03-31,0,Current,Equipment,1.36,LO13,British Columbia
+LN01039,Agriculture,109000,6,11.63,2022-07-16,2023-01-12,58,31-60 DPD,Equipment,0.68,LO13,Ontario
+LN01040,Agriculture,157000,18,9.28,2022-02-11,2023-08-05,0,Current,Land,1.07,LO03,Quebec
+LN01041,Manufacturing,10000,36,8.2,2023-02-05,2026-01-20,0,Current,Land,1.5,LO13,Quebec
+LN01042,Construction,45000,6,11.96,2023-09-19,2024-03-17,25,1-30 DPD,Guarantee,0.59,LO14,Ontario
+LN01043,Retail trade,18000,6,10.64,2022-02-27,2022-08-26,0,Current,Guarantee,1.24,LO02,Ontario
+LN01044,Transportation & warehousing,65500,24,11.4,2022-07-01,2024-06-20,32,31-60 DPD,None,0.81,LO10,Quebec
+LN01045,Transportation & warehousing,81000,12,11.23,2023-01-13,2024-01-08,3,1-30 DPD,Land,0.95,LO08,Quebec
+LN01046,Construction,58500,12,8.87,2023-04-05,2024-03-30,0,Current,Equipment,1.05,LO13,Ontario
+LN01047,Professional services,126000,36,6.87,2022-01-20,2025-01-04,0,Current,Invoice,1.49,LO14,Quebec
+LN01048,Professional services,169500,12,8.71,2023-09-09,2024-09-03,0,Current,Land,0.86,LO05,Ontario
+LN01049,Professional services,172000,36,9.5,2022-07-19,2025-07-03,12,1-30 DPD,Land,1.09,LO15,Quebec
+LN01050,Agriculture,133500,12,10.77,2023-02-15,2024-02-10,36,31-60 DPD,Land,0.87,LO15,Ontario
+LN01051,Professional services,11500,12,7.87,2022-03-22,2023-03-17,0,Current,Land,1.47,LO07,Manitoba
+LN01052,Construction,179500,18,11.89,2023-05-23,2024-11-13,109,NPL (>90),None,0.24,LO06,Quebec
+LN01053,Retail trade,42500,24,11.77,2023-11-15,2025-11-04,56,31-60 DPD,None,0.51,LO03,Ontario
+LN01054,Construction,65500,12,10.71,2022-10-29,2023-10-24,16,1-30 DPD,None,0.74,LO14,Ontario
+LN01055,Professional services,57500,6,7.12,2022-07-29,2023-01-25,0,Current,Invoice,1.66,LO02,Manitoba
+LN01056,Professional services,138000,24,8.58,2022-06-24,2024-06-13,7,1-30 DPD,Equipment,1.5,LO14,Manitoba
+LN01057,Transportation & warehousing,25500,24,10.55,2023-08-27,2025-08-16,24,1-30 DPD,Equipment,1.12,LO15,Quebec
+LN01058,Manufacturing,109000,18,10.21,2023-05-19,2024-11-09,19,1-30 DPD,None,1.08,LO13,Quebec
+LN01059,Manufacturing,161500,36,8.69,2022-04-28,2025-04-12,0,Current,Guarantee,1.52,LO06,Manitoba
+LN01060,Construction,139500,6,12.77,2023-08-26,2024-02-22,137,NPL (>90),None,0.47,LO07,Quebec
+LN01061,Transportation & warehousing,170500,6,11.17,2022-03-04,2022-08-31,49,31-60 DPD,Equipment,0.59,LO09,Ontario
+LN01062,Manufacturing,159000,6,9.03,2022-01-03,2022-07-02,0,Current,Invoice,1.0,LO02,Alberta
+LN01063,Manufacturing,41000,18,8.07,2022-06-13,2023-12-05,0,Current,Guarantee,1.8,LO06,British Columbia
+LN01064,Professional services,172000,18,6.61,2022-06-03,2023-11-25,0,Current,Land,1.82,LO13,Manitoba
+LN01065,Retail trade,180000,12,9.16,2023-02-12,2024-02-07,0,Current,Land,1.45,LO09,Ontario
+LN01066,Transportation & warehousing,56500,24,11.3,2023-07-09,2025-06-28,0,Current,Guarantee,0.94,LO14,Ontario
+LN01067,Manufacturing,31500,6,8.96,2022-02-04,2022-08-03,0,Current,Equipment,1.45,LO09,Quebec
+LN01068,Transportation & warehousing,113500,18,10.17,2022-10-26,2024-04-18,0,Current,Equipment,0.81,LO10,Quebec
+LN01069,Transportation & warehousing,115500,36,11.22,2023-10-25,2026-10-09,54,31-60 DPD,None,0.33,LO13,Ontario
+LN01070,Retail trade,130000,24,11.65,2022-07-03,2024-06-22,76,61-90 DPD,Equipment,0.69,LO07,Quebec
+LN01071,Professional services,92500,36,8.06,2023-11-04,2026-10-19,0,Current,Invoice,1.52,LO13,Ontario
+LN01072,Construction,20500,24,11.86,2023-06-29,2025-06-18,78,61-90 DPD,Invoice,0.65,LO03,Ontario
+LN01073,Construction,109500,24,11.4,2022-06-07,2024-05-27,27,1-30 DPD,None,0.81,LO08,Alberta
+LN01074,Retail trade,146500,36,7.94,2023-06-21,2026-06-05,0,Current,Land,1.52,LO03,Alberta
+LN01075,Transportation & warehousing,147000,18,11.89,2022-10-03,2024-03-26,62,61-90 DPD,Guarantee,0.55,LO07,Quebec
+LN01076,Transportation & warehousing,117000,24,10.22,2022-02-01,2024-01-22,0,Current,Land,0.86,LO15,British Columbia
+LN01077,Manufacturing,144500,18,11.44,2022-10-02,2024-03-25,40,31-60 DPD,Invoice,0.8,LO07,Manitoba
+LN01078,Manufacturing,71000,36,10.95,2023-10-16,2026-09-30,12,1-30 DPD,Equipment,0.78,LO03,Alberta
+LN01079,Construction,138000,18,11.66,2022-08-16,2024-02-07,64,61-90 DPD,None,0.57,LO06,Quebec
+LN01080,Manufacturing,55000,18,8.1,2022-12-12,2024-06-04,0,Current,Invoice,1.11,LO06,Quebec
+LN01081,Manufacturing,177500,12,8.64,2023-08-27,2024-08-21,0,Current,Guarantee,1.68,LO13,Alberta
+LN01082,Agriculture,27500,36,11.84,2023-02-05,2026-01-20,26,1-30 DPD,Guarantee,0.71,LO11,Quebec
+LN01083,Construction,55500,24,7.99,2023-07-27,2025-07-16,0,Current,Invoice,1.47,LO05,Ontario
+LN01084,Agriculture,48500,12,6.85,2023-10-01,2024-09-25,0,Current,Land,1.96,LO15,British Columbia
+LN01085,Construction,22500,6,9.87,2023-09-06,2024-03-04,0,Current,None,0.86,LO06,British Columbia
+LN01086,Manufacturing,56500,6,7.11,2023-01-08,2023-07-07,0,Current,Equipment,1.64,LO02,Quebec
+LN01087,Agriculture,88500,18,7.28,2022-07-27,2024-01-18,0,Current,Guarantee,1.48,LO04,Ontario
+LN01088,Professional services,92000,36,10.34,2023-03-13,2026-02-25,0,Current,Invoice,1.28,LO01,Ontario
+LN01089,Construction,56000,12,10.68,2023-10-21,2024-10-15,14,1-30 DPD,Land,0.76,LO06,Manitoba
+LN01090,Professional services,76000,36,12.08,2022-05-05,2025-04-19,72,61-90 DPD,None,0.27,LO09,Ontario
+LN01091,Construction,136500,12,10.83,2022-01-07,2023-01-02,19,1-30 DPD,None,0.94,LO14,Ontario
+LN01092,Agriculture,79500,12,9.19,2023-07-25,2024-07-19,0,Current,Invoice,1.27,LO06,Ontario
+LN01093,Construction,97500,24,11.71,2022-10-14,2024-10-03,82,61-90 DPD,Invoice,0.78,LO09,Quebec
+LN01094,Transportation & warehousing,164500,18,11.22,2022-12-14,2024-06-06,75,61-90 DPD,None,0.98,LO06,Ontario
+LN01095,Agriculture,146000,36,11.47,2023-05-30,2026-05-14,24,1-30 DPD,Land,0.49,LO13,Alberta
+LN01096,Professional services,180500,6,7.08,2022-01-07,2022-07-06,0,Current,Land,1.2,LO13,Quebec
+LN01097,Agriculture,120500,36,10.05,2022-08-26,2025-08-10,0,Current,Land,1.1,LO14,Quebec
+LN01098,Retail trade,46000,18,11.36,2022-02-04,2023-07-29,39,31-60 DPD,None,1.0,LO11,Quebec
+LN01099,Construction,137500,6,12.04,2022-10-19,2023-04-17,74,61-90 DPD,Invoice,0.61,LO10,Alberta
+LN01100,Professional services,34500,12,8.72,2023-10-15,2024-10-09,0,Current,Invoice,1.58,LO05,Alberta
+LN01101,Professional services,35500,6,8.47,2023-06-12,2023-12-09,0,Current,Guarantee,1.49,LO02,British Columbia
+LN01102,Manufacturing,149500,12,9.41,2022-04-19,2023-04-14,6,1-30 DPD,Equipment,0.43,LO02,Manitoba
+LN01103,Manufacturing,115000,6,7.46,2023-10-02,2024-03-30,0,Current,Land,1.95,LO09,Manitoba
+LN01104,Professional services,55000,12,8.81,2023-07-21,2024-07-15,0,Current,Invoice,1.17,LO09,Manitoba
+LN01105,Professional services,80000,6,10.16,2022-07-01,2022-12-28,0,Current,Invoice,0.76,LO05,Alberta
+LN01106,Agriculture,107000,18,10.12,2023-01-24,2024-07-17,0,Current,Equipment,0.9,LO01,Quebec
+LN01107,Manufacturing,117000,36,9.96,2023-11-17,2026-11-01,22,1-30 DPD,None,0.87,LO02,Quebec
+LN01108,Retail trade,105000,12,7.11,2022-05-04,2023-04-29,0,Current,Invoice,1.47,LO08,Alberta
+LN01109,Manufacturing,44000,12,7.91,2023-11-03,2024-10-28,0,Current,Land,1.62,LO03,Manitoba
+LN01110,Construction,175000,36,12.4,2023-02-26,2026-02-10,132,NPL (>90),Equipment,0.24,LO12,Quebec
+LN01111,Agriculture,123500,36,11.34,2022-11-07,2025-10-22,12,1-30 DPD,Equipment,1.15,LO06,Alberta
+LN01112,Agriculture,131500,12,10.91,2023-07-08,2024-07-02,38,31-60 DPD,Equipment,0.99,LO05,Quebec
+LN01113,Professional services,31000,24,8.27,2023-05-20,2025-05-09,0,Current,Guarantee,1.5,LO01,British Columbia
+LN01114,Agriculture,55000,18,11.76,2023-05-26,2024-11-16,88,61-90 DPD,None,0.48,LO02,Manitoba
+LN01115,Professional services,114500,36,8.73,2022-07-11,2025-06-25,0,Current,Equipment,1.38,LO04,Alberta
+LN01116,Construction,91000,36,9.7,2022-04-26,2025-04-10,0,Current,Equipment,0.94,LO15,Ontario
+LN01117,Agriculture,33500,36,11.23,2023-06-16,2026-05-31,0,Current,Land,0.81,LO06,Quebec
+LN01118,Transportation & warehousing,146500,6,10.72,2022-06-27,2022-12-24,0,Current,Land,1.14,LO05,Ontario
+LN01119,Construction,94500,24,11.43,2023-06-03,2025-05-23,54,31-60 DPD,Equipment,0.32,LO12,Alberta
+LN01120,Agriculture,125500,18,11.28,2023-10-15,2025-04-07,58,31-60 DPD,None,0.74,LO01,Ontario
+LN01121,Retail trade,45000,18,10.25,2022-08-30,2024-02-21,45,31-60 DPD,None,0.98,LO10,Quebec
+LN01122,Retail trade,89500,18,10.39,2022-06-16,2023-12-08,51,31-60 DPD,Equipment,1.0,LO10,Ontario
+LN01123,Retail trade,13500,12,11.54,2022-06-21,2023-06-16,7,1-30 DPD,None,1.14,LO11,Ontario
+LN01124,Retail trade,62000,24,11.11,2023-06-08,2025-05-28,50,31-60 DPD,Equipment,0.83,LO14,Manitoba
+LN01125,Retail trade,109500,24,9.95,2023-08-31,2025-08-20,0,Current,Land,1.02,LO01,Alberta
+LN01126,Manufacturing,136500,6,9.8,2022-05-01,2022-10-28,0,Current,Invoice,1.21,LO13,Alberta
+LN01127,Manufacturing,19000,36,9.98,2023-11-21,2026-11-05,0,Current,Invoice,1.29,LO15,Manitoba
+LN01128,Retail trade,30500,6,9.76,2022-12-18,2023-06-16,0,Current,None,1.14,LO15,Manitoba
+LN01129,Manufacturing,170000,12,7.9,2023-08-09,2024-08-03,0,Current,Equipment,1.36,LO11,Manitoba
+LN01130,Professional services,122500,18,8.21,2022-04-17,2023-10-09,0,Current,Equipment,1.43,LO05,Manitoba
+LN01131,Retail trade,25500,6,10.23,2023-12-01,2024-05-29,5,1-30 DPD,Guarantee,0.88,LO10,Alberta
+LN01132,Agriculture,180000,12,7.53,2023-01-20,2024-01-15,0,Current,Equipment,1.37,LO14,British Columbia
+LN01133,Manufacturing,131000,18,8.85,2022-12-25,2024-06-17,0,Current,Land,1.08,LO12,Alberta
+LN01134,Retail trade,149500,12,12.67,2023-08-06,2024-07-31,138,NPL (>90),None,0.4,LO13,Alberta
+LN01135,Construction,96000,6,10.48,2022-08-23,2023-02-19,0,Current,Guarantee,0.91,LO15,Quebec
+LN01136,Construction,66500,18,7.75,2022-05-14,2023-11-05,0,Current,Equipment,1.3,LO05,Ontario
+LN01137,Transportation & warehousing,144500,6,8.89,2023-05-09,2023-11-05,0,Current,Guarantee,0.95,LO08,Manitoba
+LN01138,Construction,95500,6,12.57,2023-09-27,2024-03-25,21,1-30 DPD,Land,0.73,LO12,Ontario
+LN01139,Professional services,83500,36,11.32,2022-08-22,2025-08-06,40,31-60 DPD,None,0.84,LO15,Ontario
+LN01140,Agriculture,65000,12,9.24,2023-12-02,2024-11-26,0,Current,Land,1.14,LO12,Ontario
+LN01141,Agriculture,15500,6,10.73,2023-09-23,2024-03-21,24,1-30 DPD,Invoice,0.81,LO13,Alberta
+LN01142,Professional services,73500,18,7.91,2023-01-15,2024-07-08,0,Current,Invoice,1.54,LO13,Quebec
+LN01143,Agriculture,59000,12,9.54,2022-09-15,2023-09-10,2,1-30 DPD,Guarantee,1.18,LO01,Ontario
+LN01144,Retail trade,106000,6,11.41,2023-06-11,2023-12-08,60,31-60 DPD,Land,1.16,LO01,Ontario
+LN01145,Transportation & warehousing,147000,36,9.78,2023-04-06,2026-03-21,15,1-30 DPD,Land,1.57,LO07,British Columbia
+LN01146,Retail trade,104000,36,10.67,2023-11-18,2026-11-02,0,Current,Guarantee,0.7,LO03,British Columbia
+LN01147,Retail trade,160000,6,9.02,2022-03-04,2022-08-31,0,Current,Land,1.22,LO02,Manitoba
+LN01148,Retail trade,90000,12,9.55,2022-02-18,2023-02-13,0,Current,Guarantee,1.52,LO09,Quebec
+LN01149,Professional services,62000,24,7.79,2022-07-21,2024-07-10,0,Current,Equipment,0.92,LO14,British Columbia
+LN01150,Transportation & warehousing,71500,24,10.89,2023-09-03,2025-08-23,40,31-60 DPD,Guarantee,0.83,LO04,Ontario
+LN01151,Construction,10500,12,11.52,2022-07-25,2023-07-20,0,Current,Invoice,0.74,LO14,Quebec
+LN01152,Professional services,85500,12,6.91,2023-08-23,2024-08-17,0,Current,Land,1.75,LO14,Manitoba
+LN01153,Transportation & warehousing,157500,6,9.56,2022-09-30,2023-03-29,0,Current,Guarantee,1.15,LO11,British Columbia
+LN01154,Retail trade,140500,6,9.83,2023-08-26,2024-02-22,36,31-60 DPD,Invoice,1.28,LO02,Quebec
+LN01155,Retail trade,13000,18,12.66,2023-07-11,2025-01-01,47,31-60 DPD,None,0.59,LO14,Alberta
+LN01156,Transportation & warehousing,130500,36,10.22,2022-09-13,2025-08-28,35,31-60 DPD,Land,0.76,LO03,Ontario
+LN01157,Agriculture,115500,36,11.96,2023-08-27,2026-08-11,20,1-30 DPD,Invoice,0.48,LO07,Ontario
+LN01158,Construction,101500,24,9.69,2023-10-26,2025-10-15,0,Current,Land,1.36,LO10,Quebec
+LN01159,Transportation & warehousing,30500,24,11.76,2023-07-24,2025-07-13,117,NPL (>90),Invoice,0.55,LO03,Manitoba
+LN01160,Professional services,59500,6,6.88,2023-08-08,2024-02-04,0,Current,Guarantee,2.0,LO14,Manitoba
+LN01161,Agriculture,85500,12,10.75,2023-06-12,2024-06-06,0,Current,None,0.84,LO02,British Columbia
+LN01162,Professional services,149500,6,8.06,2022-09-28,2023-03-27,0,Current,Equipment,1.68,LO14,Alberta
+LN01163,Manufacturing,14500,24,11.12,2023-04-17,2025-04-06,34,31-60 DPD,Equipment,0.98,LO07,Ontario
+LN01164,Manufacturing,124000,6,7.67,2023-11-08,2024-05-06,0,Current,Guarantee,1.25,LO15,British Columbia
+LN01165,Retail trade,50500,36,11.13,2023-09-02,2026-08-17,57,31-60 DPD,None,0.77,LO03,Ontario
+LN01166,Retail trade,179000,6,11.39,2023-07-05,2024-01-01,37,31-60 DPD,None,0.75,LO05,Alberta
+LN01167,Construction,15000,6,9.29,2023-02-13,2023-08-12,0,Current,Equipment,1.1,LO02,Quebec
+LN01168,Agriculture,100000,12,10.87,2023-03-27,2024-03-21,21,1-30 DPD,None,0.83,LO15,Ontario
+LN01169,Construction,39500,6,8.99,2022-02-17,2022-08-16,0,Current,Land,1.06,LO03,Ontario
+LN01170,Manufacturing,75500,6,8.27,2023-02-17,2023-08-16,0,Current,Land,1.49,LO11,Ontario
+LN01171,Manufacturing,98500,24,10.06,2023-08-28,2025-08-17,0,Current,Invoice,0.96,LO09,Manitoba
+LN01172,Professional services,135500,24,8.63,2023-11-18,2025-11-07,0,Current,Invoice,1.44,LO01,Quebec
+LN01173,Retail trade,112000,12,9.43,2022-09-22,2023-09-17,0,Current,None,1.48,LO06,Quebec
+LN01174,Retail trade,95500,36,11.67,2022-07-01,2025-06-15,35,31-60 DPD,Invoice,0.88,LO15,Ontario
+LN01175,Transportation & warehousing,105500,12,11.01,2023-01-22,2024-01-17,0,Current,Invoice,1.0,LO14,Ontario
+LN01176,Transportation & warehousing,126000,24,11.07,2023-10-18,2025-10-07,0,Current,Land,1.05,LO15,Quebec
+LN01177,Transportation & warehousing,120500,36,12.97,2023-07-14,2026-06-28,92,NPL (>90),None,0.15,LO05,Quebec
+LN01178,Construction,64000,6,12.76,2022-06-06,2022-12-03,103,NPL (>90),None,0.39,LO07,Manitoba
+LN01179,Manufacturing,179500,18,9.06,2022-09-06,2024-02-28,0,Current,None,1.15,LO01,British Columbia
+LN01180,Construction,176000,12,10.21,2023-02-14,2024-02-09,21,1-30 DPD,None,1.12,LO04,British Columbia
+LN01181,Retail trade,162500,12,12.2,2023-02-09,2024-02-04,73,61-90 DPD,None,0.44,LO10,Ontario
+LN01182,Professional services,13500,6,8.78,2022-03-17,2022-09-13,0,Current,Equipment,1.45,LO02,British Columbia
+LN01183,Transportation & warehousing,53000,36,12.6,2022-06-17,2025-06-01,78,61-90 DPD,Invoice,0.52,LO04,Quebec
+LN01184,Transportation & warehousing,80500,6,8.63,2022-09-12,2023-03-11,0,Current,Land,1.59,LO06,British Columbia
+LN01185,Construction,26000,18,11.95,2022-01-23,2023-07-17,55,31-60 DPD,Guarantee,0.52,LO08,Manitoba
+LN01186,Agriculture,31500,6,8.1,2023-10-28,2024-04-25,0,Current,Land,1.85,LO12,Quebec
+LN01187,Agriculture,14500,36,11.13,2022-03-06,2025-02-18,51,31-60 DPD,Land,0.68,LO03,Alberta
+LN01188,Agriculture,113000,36,7.82,2023-10-08,2026-09-22,0,Current,Land,1.7,LO15,Alberta
+LN01189,Retail trade,160000,24,9.06,2022-05-29,2024-05-18,0,Current,Guarantee,1.17,LO14,Ontario
+LN01190,Manufacturing,155000,36,9.25,2023-02-08,2026-01-23,0,Current,Invoice,1.3,LO09,Quebec
+LN01191,Construction,124500,36,12.71,2022-09-12,2025-08-27,64,61-90 DPD,None,0.24,LO05,British Columbia
+LN01192,Professional services,108000,6,9.74,2023-08-26,2024-02-22,0,Current,Guarantee,0.85,LO13,Alberta
+LN01193,Retail trade,29000,36,11.21,2023-09-06,2026-08-21,61,61-90 DPD,Invoice,0.85,LO04,Alberta
+LN01194,Professional services,164000,6,7.79,2022-03-14,2022-09-10,0,Current,Invoice,1.28,LO11,Alberta
+LN01195,Retail trade,49000,36,10.41,2023-07-23,2026-07-07,23,1-30 DPD,Guarantee,0.81,LO12,Alberta
+LN01196,Manufacturing,27000,36,12.28,2023-01-17,2026-01-01,49,31-60 DPD,None,0.93,LO08,Ontario
+LN01197,Retail trade,14000,36,10.19,2022-05-20,2025-05-04,15,1-30 DPD,Guarantee,1.04,LO05,Quebec
+LN01198,Professional services,128000,18,10.25,2023-07-25,2025-01-15,46,31-60 DPD,None,0.61,LO08,Quebec
+LN01199,Retail trade,66500,24,10.78,2022-01-15,2024-01-05,0,Current,Guarantee,1.1,LO06,Quebec
+LN01200,Professional services,68500,6,9.88,2022-11-12,2023-05-11,0,Current,Guarantee,1.47,LO04,Ontario

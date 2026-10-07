@@ -1,0 +1,16 @@
+Loan,Sector,Province,Officer,Principal $,Coverage,Rate %,Stage,Score
+LN00084,Transportation & warehousing,Alberta,LO07,127000,0.42,12.61,1-30 DPD,96
+LN00226,Transportation & warehousing,Ontario,LO07,98000,0.34,12.95,61-90 DPD,96
+LN00974,Construction,Ontario,LO07,40000,0.66,11.9,61-90 DPD,93
+LN00162,Retail trade,Quebec,LO07,12000,0.15,12.86,61-90 DPD,92
+LN00347,Retail trade,Quebec,LO07,107000,0.44,12.69,31-60 DPD,92
+LN00463,Construction,Alberta,LO12,98000,0.62,11.64,61-90 DPD,90
+LN00650,Construction,British Columbia,LO12,158500,0.61,11.91,1-30 DPD,90
+LN00955,Construction,Quebec,LO07,21000,0.8,12.53,1-30 DPD,90
+LN00967,Construction,Quebec,LO12,30500,0.58,11.81,31-60 DPD,90
+LN00006,Transportation & warehousing,Quebec,LO07,59000,0.19,12.04,61-90 DPD,89
+LN01075,Transportation & warehousing,Quebec,LO07,147000,0.55,11.89,61-90 DPD,89
+LN01138,Construction,Ontario,LO12,95500,0.73,12.57,1-30 DPD,87
+LN00723,Transportation & warehousing,Manitoba,LO12,152500,0.15,12.16,31-60 DPD,86
+LN00828,Transportation & warehousing,Quebec,LO12,179500,0.32,11.84,31-60 DPD,86
+LN00150,Construction,Manitoba,LO01,87500,0.48,12.74,31-60 DPD,85
