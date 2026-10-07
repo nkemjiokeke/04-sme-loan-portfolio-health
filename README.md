@@ -4,6 +4,14 @@
 
 This project runs on illustrative data. The loan book is simulated, but the risk relationships built into it are real ones, and the analysis is the same I would run on an actual portfolio. How the data was built is documented in `data/DATA_DICTIONARY.md`.
 
+## Visuals
+
+![Default risk concentrates in two sectors](images/04-1.png)
+
+![Two loan officers drive most of the risk](images/04-2.png)
+
+![$3.9M of expected loss is still actionable](images/04-3.png)
+
 ## The problem
 A Canadian lender holds 1,200 small-business loans worth $114M across five provinces and six sectors. Its non-performing loan rate is 3.9% and rising. The catch is that the lender only learns a loan has gone bad once it passes 90 days past due, and by then the borrower is usually too far gone to recover and the loss is booked. I set out to build something that flags a loan heading for default while there is still time to act, and to find where the book is leaking so the lender can tighten who it lends to.
 
